@@ -125,11 +125,10 @@ window.twentyfifty.views.sankey = function() {
         this.recolour(this.boxes["Electricity grid"].left_lines, "#0000FF");
       };
 
-      pixels_per_TWh = $('#sankey').height() / 4000;
+      pixels_per_TWh = $('#sankey').height() / 3000;
 
       s.y_space = Math.round(100 * pixels_per_TWh);
       s.right_margin = 250;
-      s.top_margin = 400;
 
       s.convert_flow_values_callback = function(flow) {
         return flow * pixels_per_TWh;
@@ -142,6 +141,7 @@ window.twentyfifty.views.sankey = function() {
       s.convert_box_value_labels_callback = function(flow) {
         return "" + Math.round(flow) + " TWh/y";
       };
+      s.s
     };
 
     return this;
