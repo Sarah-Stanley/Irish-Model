@@ -10,10 +10,10 @@ window.timeSeriesStackedAreaChart = function() {
   unit = "TWh/yr"; // Default, Can be accessed or set with chart.unit("PJ")
 
   // Series are expected to be an array of numbers, this defines which year each number maps onto
-  year_for_data = [2010, 2015, 2020, 2025, 2030, 2035, 2040, 2045, 2050];
+  year_for_data = [2013, 2015, 2020, 2025, 2030, 2035, 2040, 2045, 2050];
 
   // These years will be marked on the axis, and data on those values will be displayed. 
-  year_for_ticks = [2010, 2020, 2030, 2040, 2050];
+  year_for_ticks = [2013, 2020, 2030, 2040, 2050];
 
   min_value = 0; // This is the minimum for the y-axis
   max_value = 4000; // This is the maximum for the y-axis
