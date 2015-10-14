@@ -104,8 +104,8 @@ window.twentyfifty.views.electricity = function() {
       .title("Emissions from Electricity")
       .unit('MtCO2e/yr')
       .css_for_label(css_for_labels)
-      .min_value(-500)
-      .max_value(1000);
+      .min_value(0)
+      .max_value(80);
   };
 
   // This is called when a new view has been selected
