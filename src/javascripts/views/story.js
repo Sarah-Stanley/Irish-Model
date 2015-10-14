@@ -102,7 +102,7 @@ window.twentyfifty.views.story = function() {
     var data, html, name, value, values, _i, _len, _ref;
     html = [];
     html.push("<table class='heating_choice'>");
-    html.push("<tr><th>GW Capacity</th><th class='target'>2010</th><th class='target'>2050</th></tr>");
+    html.push("<tr><th>GW Capacity</th><th class='target'>2013</th><th class='target'>2050</th></tr>");
 
     capacity = this.pathway.electricity.capacity;
 
@@ -110,14 +110,14 @@ window.twentyfifty.views.story = function() {
     
     // The first row of the table has the column names
     name_index = capacity[0].indexOf("Sector");
-    index_2010 = capacity[0].indexOf(2010);
+    index_2013 = capacity[0].indexOf(2013);
     index_2050 = capacity[0].indexOf(2050);
 
     // Go through the table and pick out the data from the relevant column
     capacity.slice(1).forEach(function(row) {
       values.push({
         name: row[name_index],
-        d2010: row[index_2010],
+        d2010: row[index_2013],
         d2050: row[index_2050] 
       });
     });
