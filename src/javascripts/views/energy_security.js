@@ -83,7 +83,7 @@ twentyfifty.views.energy_security = function() {
     // [{A: "Hello", B: 1}, { A: "World", B: 2}]
     data = arrangeData(pathway.diversity);
 
-    // This creates a total of the % contribution of each fuel in 2007 and 2050
+    // This creates a total of the % contribution of each fuel in 2013 and 2050
     data.forEach(function(d) { d.total =  (+d['2013']+d['2050']) });
     // This removes fuels that aren't used
     data = data.filter(function(d) { return d.total > 0.01 });
@@ -124,7 +124,7 @@ twentyfifty.views.energy_security = function() {
     quantity = arrangeData(pathway.imports.quantity);
     proportion = arrangeData(pathway.imports.proportion);
 
-    // We combine those two tables, picking out only 2007 and 2050 data
+    // We combine those two tables, picking out only 2013 and 2050 data
     data = quantity.map(function(d,i) {
       p = proportion[i];
       if(p.Vector != d.Vector) {
@@ -162,7 +162,7 @@ twentyfifty.views.energy_security = function() {
     // This makes sure that the html order is the same as the data order
     rows.order();
 
-    // We only care about the name, and the values in 2007 and 2050
+    // We only care about the name, and the values in 2013 and 2050
     cells = rows.selectAll("td").data(function(d) { 
       return [
         d.name, 
