@@ -13,7 +13,7 @@
     "Offshore wind": "Electricity",
     "Hydroelectric": "Electricity",
     "Wave and Tidal": "Electricity",
-    "Geothermal": "Electricity",
+    "Geothermal": "Electricity", 
     "Distributed solar PV": "Electricity",
     "Distributed solar thermal": "Buildings",
     "Micro wind": "Electricity",

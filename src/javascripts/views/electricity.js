@@ -36,14 +36,12 @@ window.twentyfifty.views.electricity = function() {
       'Gas oversupply (imports)': 'gas',
       'Gas reserves': 'gas',
       'Geosequestration': 'geosequestration',
-      /*
       'Geothermal': 'geothermal',
       'Geothermal electricity': 'geothermal',
       'H2 Production for Transport': 'h2',
       'Heating & cooling': 'heatingcooling',
       'Heating and cooling': 'heatingcooling',
       'Hydro': 'hydro',
-      */
       'Indigenous fossil-fuel production': 'industry',
       'Industrial processes': 'industry',
       'Industry': 'industry',
