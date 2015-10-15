@@ -105,7 +105,7 @@ window.twentyfifty.views.primary_energy_chart = function() {
       .title("Greenhouse Gas Emissions")
       .unit('MtCO2e/yr')
       .css_for_label(css_for_labels)
-      .min_value(0)
+      .min_value(-40)
       .max_value(80);
   };
 
