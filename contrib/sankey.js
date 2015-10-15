@@ -14,9 +14,9 @@
       this.r = Raphael(this.display_in_element, this.display_width, this.display_height);
       this.left_margin = 100;
       this.right_margin = 100;
-      this.y_space = 10;
-      this.threshold_for_drawing = 0;
-      this.box_width = 50;
+      this.y_space = 20;
+      this.threshold_for_drawing = -30;
+      this.box_width = 80;
       this.flow_edge_width = 2;
       this.flow_curve = 0.25;
       this.boxes = {};
@@ -28,6 +28,10 @@
       this.bubbleColor = '#000';
       this.bubbleLabelColor = '#fff';
     }
+    Sankey.prototype.translateAllElementsDown = function() {
+
+    };
+
     Sankey.prototype.find_or_create_transformation_box = function(name) {
       var new_box;
       if (this.boxes[name] == null) {

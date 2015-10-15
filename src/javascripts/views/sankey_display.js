@@ -73,7 +73,7 @@ window.twentyfifty.views.sankey = function() {
       s.stack(7, ["Heating and cooling - homes", "Heating and cooling - commercial", "Lighting & appliances - homes", "Lighting & appliances - commercial", "Industry", "Road transport", "Rail transport", "Domestic aviation", "International aviation", "National navigation", "International shipping", "Agriculture", "Geosequestration", "Over generation / exports", "Losses"]);
 
       s.nudge_boxes_callback = function() {
-        this.boxes["Losses"].y = this.boxes["Marine algae"].b() - this.boxes["Losses"].size();
+        this.boxes["Losses"].y = this.boxes["Marine algae"].b() + this.boxes["Losses"].size();
       };
 
       s.setColors({
@@ -125,10 +125,11 @@ window.twentyfifty.views.sankey = function() {
         this.recolour(this.boxes["Electricity grid"].left_lines, "#0000FF");
       };
 
-      pixels_per_TWh = $('#sankey').height() / 3000;
+      pixels_per_TWh = $('#sankey').height() / 2500;
 
       s.y_space = Math.round(100 * pixels_per_TWh);
       s.right_margin = 250;
+      s.left_margin = 250;
 
       s.convert_flow_values_callback = function(flow) {
         return flow * pixels_per_TWh;
@@ -141,6 +142,8 @@ window.twentyfifty.views.sankey = function() {
       s.convert_box_value_labels_callback = function(flow) {
         return "" + Math.round(flow) + " TWh/y";
       };
+
+      s.translateAllElementsDown();
       s.s
     };
 
