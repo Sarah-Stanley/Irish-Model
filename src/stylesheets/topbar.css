@@ -1,7 +1,7 @@
 #topbar {
   width: 100%;
   margin: 0 0 10px 0;
-  background-color: white;
+  background-color: #ccc;
   color: black;
   border-bottom: solid #009ddb 3px; 
   padding-top: 12px;
@@ -9,8 +9,9 @@
 
 }
   #topbar a {
-    color: #666;
-    text-decoration: none; }
+    text-decoration: none; 
+    color: black;
+  }
   #topbar .selectedView {
     color: #009ddb; 
     text-decoration: underline; 
@@ -19,7 +20,7 @@
     text-decoration: underline; }
   #topbar #name {
     float: left;
-    margin-left: 2.4%;
+    margin-left: 1.4%;
     width: 256px; }
   #topbar #examples {
     text-align: right;
@@ -31,7 +32,7 @@
     text-align: center; }
     #topbar #views a {
       padding-right: 10px; }
-      
+
 .dropdown {
   z-index: 10000;
   position: absolute;
