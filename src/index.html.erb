@@ -136,10 +136,8 @@
             </tr>
           <% end %>
         </table>
-      </div>
-      <!-- The right column -->
-      <div id='other'>
-        <table>
+          <!-- Table specifically for the cell indigeneous fossil fuel production. This had been put in the 'other' section in the uk model -->
+          <table>
           <!-- this should actually go up to choice 42, but that isn't ready for prime time yet -->
           <% structure.choices[40..41].each do |choice| %>
             <tr class='<%= choice.incremental_or_alternative %>' id='r<%= choice.number %>'>
@@ -162,6 +160,10 @@
             </tr>
           <% end %>
         </table>
+      </div>
+      <!-- The right column -->
+
+      <div id='other'>
         <h4>Notes</h4>
         <table id='notes'>
           <tr><td id='firstcell'><div class='help'>?</div></td><td>Question marks take you to one page descriptions of each choice</td></tr>
