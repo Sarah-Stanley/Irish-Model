@@ -76,6 +76,7 @@
     <div id='classic_controls'>
       <!-- The left column -->
       <div id='demand'>
+      <h2> Demand</h2>
         <table>
           <!-- One row per choice -->
           <% structure.choices[21..39].each do |choice| %>
@@ -102,6 +103,7 @@
       </div>
       <!-- The middle column -->
       <div id='supply'>
+      <h2> Supply</h2>
         <table>
           <% structure.choices[0..20].each do |choice| %>
             <tr class='<%= choice.incremental_or_alternative %>' id='r<%= choice.number %>'>
