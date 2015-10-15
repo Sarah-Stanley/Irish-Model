@@ -7,7 +7,7 @@
   height: 600px; }
 
 .costsincontext h1 {
-  font-size: 16px;
+  font-size: 18px;
   margin-left: 250px; }
 
 #cost_override_warning {
@@ -40,7 +40,7 @@
     text-align: center; }
 
 #essentialnotes {
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 5px;
   margin-left: 250px;
   margin-right: 100px;
