@@ -140,7 +140,7 @@ window.twentyfifty.views.primary_energy_chart = function() {
   this.updateResults = function(pathway) {
 
     // Add some footnote references
-    if(pathway.primary_energy_supply[pathway.primary_energy_supply.length-1][0] == "Total used in UK") {
+    if(pathway.primary_energy_supply[pathway.primary_energy_supply.length-1][0] == "Total used in Ireland") {
       pathway.primary_energy_supply[pathway.primary_energy_supply.length-1][0] =  pathway.primary_energy_supply[pathway.primary_energy_supply.length-1][0] + "¹";
     }
 
@@ -196,6 +196,7 @@ window.twentyfifty.views.primary_energy_chart = function() {
     t.enter().append('circle')
       .attr('class', 'target')
       .attr('r', function(d) { return d == undefined ? 0 : 3 });
+      
 
     t.attr('cx', function(d,i) { return x(2010 + (i*5)) });
     t.attr('cy', function(d,i) { return y(d) });
@@ -207,22 +208,11 @@ window.twentyfifty.views.primary_energy_chart = function() {
       .attr('class', 'targetlabel');
 
     new_label.append('text')
-      .text("Targets²");
+      .text("Target");
 
     t.select('text')
       .attr('x', function(d,i) { return x(2022) })
       .attr('y', function(d,i) { return y(800) });
-
-    //new_label.append('line');
-
-
-
-    t.select('line')
-      .attr('x1', function(d,i) { return x(2015)+4 })
-      .attr('y1', function(d,i) { return y(d)-4 })
-      .attr('x2', function(d,i) { return x(2022) })
-      .attr('y2', function(d,i) { return y(800) });
-
   };
 
   return this;

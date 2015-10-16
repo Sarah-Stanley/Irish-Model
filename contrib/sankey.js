@@ -15,7 +15,7 @@
       this.left_margin = 100;
       this.right_margin = 100;
       this.y_space = 20;
-      this.threshold_for_drawing = -30;
+      this.threshold_for_drawing = 0;
       this.box_width = 80;
       this.flow_edge_width = 2;
       this.flow_curve = 0.25;
@@ -103,7 +103,7 @@
       return this.stacks.push({
         x: x,
         box_names: box_names,
-        y_box: y_box
+        y_box: y_box 
       });
     };
     Sankey.prototype.setColors = function(colors) {
@@ -146,9 +146,9 @@
         stack = _ref[_i];
         x = stack.x;
         if (stack.y_box != null) {
-          y = ((_ref2 = this.boxes[stack.y_box]) != null ? _ref2.y : void 0) || 10;
+          y = ((_ref2 = this.boxes[stack.y_box]) != null ? _ref2.y : void 0) || 20;
         } else {
-          y = 10;
+          y = 20;
         }
         _ref3 = stack.box_names;
         for (_j = 0, _len2 = _ref3.length; _j < _len2; _j++) {
@@ -425,7 +425,7 @@
       this.left_lines = [];
       this.right_lines = [];
       this.x = 0;
-      this.y = 0;
+      this.y = 5;
       this.bubbleValue = null;
     }
     TransformationBox.prototype.b = function() {

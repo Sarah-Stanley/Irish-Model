@@ -18,12 +18,17 @@
     text-decoration: underline; 
   }
   #topbar a:hover {
-    text-decoration: underline; }
+    text-decoration: underline; 
+    color: white;
+
+  }
   #topbar #name {
+    color: white;
     float: left;
-    margin-left: 1.4%;
+    margin-left: 2.8%;
     width: 180px; 
     font-size: 14px;
+    font-weight: bold;
   }
   #topbar #examples {
     text-align: right;
