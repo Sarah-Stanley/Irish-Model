@@ -86,7 +86,7 @@
                 </a>
               </td>
               <td class='help'>
-                <a title='Click for more detail on what choices <%= choice.levels.to_a.join(' ')%> mean.' href='/assets/onepage/Trajectory-Description.pdf' target='_new'>?</a>
+                 <a title='Click for more detail on what choices <%= choice.levels.to_a.join(' ')%> mean.' href='/assets/onepage/<%= choice.doc %>' target='_new'>?</a>
               </td>
               <!-- One cell per level for that choice -->
               <% choice.levels.each.with_index do |level,i| %>
@@ -112,7 +112,7 @@
                 </a>
               </td>
               <td class='help'>
-                <a title='Click for more detail on what choices <%= choice.levels.to_a.join(' ')%> mean.' href='/assets/onepage/Trajectory-Description.pdf' target='_new'>?</a>
+                 <a title='Click for more detail on what choices <%= choice.levels.to_a.join(' ')%> mean.' href='/assets/onepage/<%= choice.doc %>' target='_new'>?</a>
               </td>
               <!-- One cell per level for that choice -->
               <% choice.levels.each.with_index do |level,i| %>
