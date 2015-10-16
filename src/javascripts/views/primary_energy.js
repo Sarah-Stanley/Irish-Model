@@ -145,7 +145,7 @@ window.twentyfifty.views.primary_energy_chart = function() {
     }
 
     if(pathway.ghg[pathway.ghg.length-2][0] == "Total") {
-      pathway.ghg[pathway.ghg.length-2][0] =  pathway.ghg[pathway.ghg.length-2][0] + "³";
+      pathway.ghg[pathway.ghg.length-2][0] =  pathway.ghg[pathway.ghg.length-2][0];
     }
 
 
