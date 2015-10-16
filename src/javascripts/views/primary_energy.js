@@ -49,7 +49,7 @@ window.twentyfifty.views.primary_energy_chart = function() {
       'Industrial processes': 'industry',
       'Industry': 'industry',
       'Industrial Processes': 'industry',
-      "Int'l Aviation & Shipping": 'aviationandshipping',
+      "International Aviation": 'aviationandshipping',
       'Lighting & appliances': 'lightingappliances',
       'LULUCF': 'lulucf',
       'Natural gas': 'gas',
