@@ -7994,18 +7994,6 @@ class Model
     attach_function 'flows_l93', [], ExcelValue.by_value
     attach_function 'flows_m93', [], ExcelValue.by_value
     attach_function 'flows_n93', [], ExcelValue.by_value
-    attach_function 'flows_c94', [], ExcelValue.by_value
-    attach_function 'flows_d94', [], ExcelValue.by_value
-    attach_function 'flows_e94', [], ExcelValue.by_value
-    attach_function 'flows_f94', [], ExcelValue.by_value
-    attach_function 'flows_g94', [], ExcelValue.by_value
-    attach_function 'flows_h94', [], ExcelValue.by_value
-    attach_function 'flows_i94', [], ExcelValue.by_value
-    attach_function 'flows_j94', [], ExcelValue.by_value
-    attach_function 'flows_k94', [], ExcelValue.by_value
-    attach_function 'flows_l94', [], ExcelValue.by_value
-    attach_function 'flows_m94', [], ExcelValue.by_value
-    attach_function 'flows_n94', [], ExcelValue.by_value
     # end of Flows
     # end of Preferences
     # end of Conversions
