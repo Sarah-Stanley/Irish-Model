@@ -1,8 +1,8 @@
 #topbar {
   width: 100%;
   margin: 0 0 10px 0;
-  background-color: #ccc;
-  color: black;
+  background-color: #000;
+  color: #ccc;
   border-bottom: solid #009ddb 3px; 
   padding-top: 12px;
   padding-bottom: 12px;
@@ -10,7 +10,8 @@
 }
   #topbar a {
     text-decoration: none; 
-    color: black;
+    color: #ccc;
+    font-size: 14px;
   }
   #topbar .selectedView {
     color: #009ddb; 
@@ -21,7 +22,9 @@
   #topbar #name {
     float: left;
     margin-left: 1.4%;
-    width: 256px; }
+    width: 180px; 
+    font-size: 14px;
+  }
   #topbar #examples {
     text-align: right;
     float: right;

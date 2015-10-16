@@ -213,7 +213,9 @@ window.twentyfifty.views.primary_energy_chart = function() {
       .attr('x', function(d,i) { return x(2022) })
       .attr('y', function(d,i) { return y(800) });
 
-    new_label.append('line');
+    //new_label.append('line');
+
+
 
     t.select('line')
       .attr('x1', function(d,i) { return x(2015)+4 })
