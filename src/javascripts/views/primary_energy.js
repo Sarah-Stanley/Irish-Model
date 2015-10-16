@@ -181,7 +181,7 @@ window.twentyfifty.views.primary_energy_chart = function() {
       current = parseInt(this.textContent) || +d;
       i = d3.interpolateRound(current, +d);
       return function(t) {
-        return this.textContent = "" + (i(t)) + "% reduction 1990-2050; Target is 80%";
+        return this.textContent = "" + (i(t)) + "% of base year(1990) emissions in 2050; taget is 20%";
       };
     });
 
