@@ -60,18 +60,18 @@ window.twentyfifty.views.map = function() {
   displayin_element = 'map';
   display_width = 1200;
   display_height = 800;
-  mapimage_url = '/assets/images/uk.png';
+  mapimage_url = '/assets/images/ireland.png';
   map_width = 492;
   map_height = 725;
   map_offset_x = 150;
   map_offset_y = 0;
-  km = 0.69;
+  km = 1.35;
   m = km / 1000.0;
   m2 = m * m;
   ha = 10000 * m2;
   km2 = 1e6 * m2;
   Mha = 1e6 * ha;
-  GW = 2;
+  GW = 1;
   MW = GW / 1000;
 
   colours = {
@@ -110,21 +110,21 @@ window.twentyfifty.views.map = function() {
     'III.b': 'Hydro',
     'III.c.TidalRange': 'Tidal range',
     'III.c.TidalStream': 'Tidal stream',
-    'I.a': '2 GW coal gas or biomass power stations without CCS',
-    'I.b': '1.2 GW coal gas or biomass power stations with CCS',
-    'II.a': '3 GW nuclear power station',
+    'I.a': '500 MW gas or biomass power stations without CCS',
+    'I.b': '500 MW coal gas or biomass power stations with CCS',
+    'II.a': '1 GW nuclear power station',
     'III.d': '0.01 GW geothermal stations',
-    'VII.c': '1 GW gas standby power stations',
-    'VI.b': '215 kt/y waste to energy conversion facilities'
+    'VII.c': '500 MW gas standby power stations',
+    'VI.b': '250 kt/y waste to energy conversion facilities'
   };
 
   pointSizes = {
-    'I.a': 2,
-    'I.b': 1.2,
-    'II.a': 3,
-    'III.d': 0.01,
-    'VII.c': 1,
-    'VI.b': 0.01
+    'I.a': 0.6,
+    'I.b': 0.6,
+    'II.a': 1,
+    'III.d': 0.4,
+    'VII.c': 0.6,
+    'VI.b': 0.2
   };
 
   // This is called first, before the data is ready
@@ -144,7 +144,7 @@ window.twentyfifty.views.map = function() {
     // The wave line
     this.wave = {
       line: r.path([]).attr({ stroke: 'blue', 'stroke-width': 2 }),
-      label: r.text(98, 34, "Wave").attr({ 'text-anchor': 'end' })
+      label: r.text(200, 65, "Wave").attr({ 'text-anchor': 'end' })
     };
     this.wave.label.hide();
 
@@ -193,11 +193,11 @@ window.twentyfifty.views.map = function() {
 
     x_count = 0;
     if (size < 10) {
-      x_step = 5;
-      y_step = 5;
+      x_step = 25;
+      y_step = 25;
     } else {
-      x_step = 1.5 * size;
-      y_step = 1.5 * size;
+      x_step = 3 * size;
+      y_step = 3 * size;
     }
     width = 100;
     if (number > 0) {
@@ -241,7 +241,7 @@ window.twentyfifty.views.map = function() {
     } else {
       this.wave.label.hide();
     };
-    this.wave.line.attr({ path: ["M", 100, 30, "l", 0, map['III.c.Wave'] * km] });
+    this.wave.line.attr({ path: ["M", 205, 60, "l", 0, map['III.c.Wave'] * km] });
 
     // Now draw the land boxes in the right spot
     y = map_height + map_offset_y - 100;
@@ -259,7 +259,7 @@ window.twentyfifty.views.map = function() {
       box.square.attr({ y: y - side, width: side, height: side });
       box.label.attr({ y: y - (side / 2) });
       // Dont bother showing small boxes
-      if (value.value > 10) {
+      if (value.value > 5) {
         box.label.show();
       } else {
         box.label.hide();
@@ -270,7 +270,8 @@ window.twentyfifty.views.map = function() {
     // Now draw the sea boxes
     x = (map_width / 2) + map_offset_x + 250;
     y = 30;
-    values = [];
+    
+values = [];
 
     for (name in this.sea_boxes) {
       values.push({ name: name, value: map[name] });
@@ -330,7 +331,7 @@ window.twentyfifty.views.map = function() {
 
     for (i = 0, len = values.length; i < len; i++) {
       value = values[i];
-      if (value.value >= 1) {
+      if (value.value >= 0.1) {
         size = Math.round(Math.sqrt(pointSizes[value.name]) * 10);
         y = this.point_stack(x, y, value.value, colours[value.name], "" + (Math.round(value.value)) + " x " + labels[value.name], size);
       }

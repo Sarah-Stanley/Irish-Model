@@ -3113,6 +3113,7 @@ class Model
     attach_function 'intermediate_output_be132', [], ExcelValue.by_value
     attach_function 'intermediate_output_bf132', [], ExcelValue.by_value
     attach_function 'intermediate_output_bg132', [], ExcelValue.by_value
+    attach_function 'intermediate_output_bi134', [], ExcelValue.by_value
     attach_function 'intermediate_output_b135', [], ExcelValue.by_value
     attach_function 'intermediate_output_c137', [], ExcelValue.by_value
     attach_function 'intermediate_output_d138', [], ExcelValue.by_value
@@ -3228,6 +3229,7 @@ class Model
     attach_function 'intermediate_output_bg148', [], ExcelValue.by_value
     attach_function 'intermediate_output_c149', [], ExcelValue.by_value
     attach_function 'intermediate_output_d149', [], ExcelValue.by_value
+    attach_function 'intermediate_output_f149', [], ExcelValue.by_value
     attach_function 'intermediate_output_ay149', [], ExcelValue.by_value
     attach_function 'intermediate_output_az149', [], ExcelValue.by_value
     attach_function 'intermediate_output_ba149', [], ExcelValue.by_value
@@ -3239,6 +3241,7 @@ class Model
     attach_function 'intermediate_output_bg149', [], ExcelValue.by_value
     attach_function 'intermediate_output_c150', [], ExcelValue.by_value
     attach_function 'intermediate_output_d150', [], ExcelValue.by_value
+    attach_function 'intermediate_output_f150', [], ExcelValue.by_value
     attach_function 'intermediate_output_ay150', [], ExcelValue.by_value
     attach_function 'intermediate_output_az150', [], ExcelValue.by_value
     attach_function 'intermediate_output_ba150', [], ExcelValue.by_value
@@ -3672,7 +3675,7 @@ class Model
     attach_function 'intermediate_output_bg194', [], ExcelValue.by_value
     attach_function 'intermediate_output_c197', [], ExcelValue.by_value
     attach_function 'intermediate_output_c198', [], ExcelValue.by_value
-    attach_function 'intermediate_output_c200', [], ExcelValue.by_value
+    attach_function 'intermediate_output_bc198', [], ExcelValue.by_value
     attach_function 'intermediate_output_c201', [], ExcelValue.by_value
     attach_function 'intermediate_output_f201', [], ExcelValue.by_value
     attach_function 'intermediate_output_ay201', [], ExcelValue.by_value
@@ -8045,7 +8048,7 @@ class Model
     # end of 2050
     # end of Irl. Energy Balance 2013 (ktoe)
     # end of Irl. Energy Balance 2013 (TWh)
-    # end of Changes
+    # end of EPA Emissions 2013
     # Start of named references
     attach_function 'input_choices', [], ExcelValue.by_value
     attach_function 'input_descriptions', [], ExcelValue.by_value

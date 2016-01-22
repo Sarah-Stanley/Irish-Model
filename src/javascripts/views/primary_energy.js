@@ -141,7 +141,7 @@ window.twentyfifty.views.primary_energy_chart = function() {
 
     // Add some footnote references
     if(pathway.primary_energy_supply[pathway.primary_energy_supply.length-1][0] == "Total used in Ireland") {
-      pathway.primary_energy_supply[pathway.primary_energy_supply.length-1][0] =  pathway.primary_energy_supply[pathway.primary_energy_supply.length-1][0] + "¹";
+      pathway.primary_energy_supply[pathway.primary_energy_supply.length-1][0] =  pathway.primary_energy_supply[pathway.primary_energy_supply.length-1][0];
     }
 
     if(pathway.ghg[pathway.ghg.length-2][0] == "Total") {

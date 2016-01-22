@@ -90,13 +90,12 @@ window.twentyfifty.views.electricity = function() {
       .title("Electricity Demand")
       .unit('TWh/yr')
       .css_for_label(css_for_labels)
-      .max_value(150);
-
+      .max_value(105);
     this.supply_chart = timeSeriesStackedAreaChart()
       .title("Electricity Supply")
       .unit('TWh/yr')
       .css_for_label(css_for_labels)
-      .max_value(150);
+      .max_value(105);
 
     this.emissions_chart = timeSeriesStackedAreaChart()
       .title("Emissions from Electricity")
