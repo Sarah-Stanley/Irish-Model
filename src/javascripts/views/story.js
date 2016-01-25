@@ -27,7 +27,7 @@ window.twentyfifty.views.story = function() {
     this.stories_for_choices(element, "Thermal power stations in 2050", 0, 2, 3, 9);
     this.stories_for_choices(element, "Wind in 2050", 4, 5, 14, 13);
     this.stories_for_choices(element, "Wave, tidal and hydro in 2050", 6, 7, 12);
-    this.stories_for_choices(element, "Solar in 2050", 10, 11, 15);
+    this.stories_for_choices(element, "Solar in 2050", 10, 11);
     this.stories_for_choices(element, "Bioenergy, farming and waste in 2050", 17, 18, 19, 20, 21);
 
     element = $('#ghg_story');
