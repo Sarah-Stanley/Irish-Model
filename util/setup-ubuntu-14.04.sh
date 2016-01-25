@@ -8,8 +8,6 @@ if [ "$(uname -m)" !=  'x86_64' ]; then
   exit 1
 fi
 
-GITHUB="https://github.com/Sarah-Stanley/Irish-Model.git"
-
 # The next thing we need to do is check we are running the right version of Ubuntu
 . /etc/lsb-release # This loads variables which contain the Ubuntu version
 if [ "$DISTRIB_ID" != 'Ubuntu' ] || [ "$DISTRIB_RELEASE" != '14.04' ]; then
@@ -47,8 +45,39 @@ sudo gem pristine --all --only-executables # Attempt to ensure that old commands
 sudo gem install bundler --no-ri --no-rdoc
 
 ## THE CODE
-git clone $GITHUB
-cd $(basename $GITHUB)
+function download_code_from_github {
+  echo
+  echo "***************"
+  echo
+  read -ep "Enter the url of the github repository (just press ENTER to accept the default): " -i "https://github.com/decc/twenty-fifty" GITHUB
+  echo
+  echo "***************"
+  echo
+
+  git clone $GITHUB
+  cd $(basename $GITHUB)
+
+  echo
+  echo "***************"
+  echo
+  read -ep "Enter the branch of the repository you wish to install (just press ENTER to accept master, which is the latest, or backspace to delete master and type oldHighCharts to get a version compatible with older web browsers):" -i "master" GITBRANCH
+  echo
+  echo "***************"
+  echo
+
+  git checkout -b $GITBRANCH origin/$GITBRANCH
+}
+
+# Check if the code has already been downloaded
+this_script_dir=$(dirname $0)
+if [ -e "$this_script_dir/../public" ] && [ -e "$this_script_dir/../config.ru" ]
+then
+  echo "Found public folder and config.ru directory so assuming don't need to download code"
+  cd "$this_script_dir/.."
+else
+  echo "Not found code, so need to download"
+  download_code_from_github
+fi
 
 # Installs the ruby dependencies
 echo "Installing ruby dependencies"
