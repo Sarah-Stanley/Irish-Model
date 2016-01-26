@@ -84,8 +84,8 @@ class TestModel < Minitest::Unit::TestCase
   def test_control_k13; assert_equal(" ", worksheet.control_k13); end
   def test_control_i14; assert_equal("Co-firing in Edenderry to 2030. All peat plants close post 2030.", worksheet.control_i14); end
   def test_control_j14; assert_equal("Co-firing in all peat plants by 2025. Co-firing ceases in 2030 as all peat stations close", worksheet.control_j14); end
-  def test_control_k14; assert_equal("50-80% co-firing in all peat stations by 2050 (~250 MW)", worksheet.control_k14); end
-  def test_control_l14; assert_equal("Coversion of Moneypoint (855 MW) and all peat stations in 2050 (1.2 GW capacity)", worksheet.control_l14); end
+  def test_control_k14; assert_equal("All peat stations converted to biomass only by 2050 (~350 MW)", worksheet.control_k14); end
+  def test_control_l14; assert_equal("Coversion of Moneypoint (855 MW) and all peat stations to biomass only in 2050 (1.2 GW capacity)", worksheet.control_l14); end
   def test_control_i15; assert_equal("No significant solar PV capacity is installed", worksheet.control_i15); end
   def test_control_j15; assert_equal("1.5 m2 of photovoltaic panels per person in 2050, supplying ~1.7 TWh/yr of electricity", worksheet.control_j15); end
   def test_control_k15; assert_equal(" 3m2 of photovoltaic panels per person in 2050, supplying ~3 TWh/yr", worksheet.control_k15); end
@@ -212,7 +212,7 @@ class TestModel < Minitest::Unit::TestCase
   def test_control_l52; assert_equal("Same as B", worksheet.control_l52); end
   def test_control_i54; assert_equal("No geosequestration", worksheet.control_i54); end
   def test_control_j54; assert_equal("Carbon dioxide sequestration rate of 0.3 Mt per annum by 2050 (chemical processes)", worksheet.control_j54); end
-  def test_control_k54; assert_equal("Carbon dioxide sequestration rate of 0.4 Mt per annum by 2050 (chemical processes)", worksheet.control_k54); end
+  def test_control_k54; assert_equal("Carbon dioxide sequestration rate of 2.4 Mt per annum by 2050 (chemical and mechanical processes)", worksheet.control_k54); end
   def test_control_l54; assert_equal("Carbon dioxide sequestration rate of 5.4 Mt per annum by 2050 (chemical and mechanical)", worksheet.control_l54); end
   def test_control_i55; assert_equal("1.8 GW pumped storage & 1.4 GW interconnection with UK for balancing", worksheet.control_i55); end
   def test_control_j55; assert_equal("1.8 GW (air or pumped) storage & 1.8 GW interconnection with Europe for balancing", worksheet.control_j55); end
@@ -475,7 +475,7 @@ class TestModel < Minitest::Unit::TestCase
   def test_control_bs13; assert_equal(" ", worksheet.control_bs13); end
   def test_control_bq14; assert_equal("Co-firing in Edenderry to 2030. All peat plants close post 2030", worksheet.control_bq14); end
   def test_control_br14; assert_equal("Co-firing in all peat plants by 2025. Co-firing ceases in 2030 as all peat stations close", worksheet.control_br14); end
-  def test_control_bs14; assert_equal("50-80% co-firing in all peat stations by 2050 (~250 MW)", worksheet.control_bs14); end
+  def test_control_bs14; assert_equal("All peat stations converted to biomass only by 2050 (~350 MW)", worksheet.control_bs14); end
   def test_control_bt14; assert_equal("Coversion of Moneypoint (855 MW) and all peat stations to biomass by 2050 (1.2 GW capacity)", worksheet.control_bt14); end
   def test_control_bq15; assert_equal("No significant solar PV capacity is installed", worksheet.control_bq15); end
   def test_control_br15; assert_equal("1.5 m2 of photovoltaic panels per person in 2050, supplying ~1.7 TWh/yr of electricity", worksheet.control_br15); end
@@ -603,7 +603,7 @@ class TestModel < Minitest::Unit::TestCase
   def test_control_bt52; assert_equal("100% electric", worksheet.control_bt52); end
   def test_control_bq54; assert_equal("No geosequestration", worksheet.control_bq54); end
   def test_control_br54; assert_equal("Carbon dioxide sequestration rate of 0.3 Mt per annum by 2050 (chemical processes)", worksheet.control_br54); end
-  def test_control_bs54; assert_equal("Carbon dioxide sequestration rate of 0.4 Mt per annum by 2050 (chemical processes)", worksheet.control_bs54); end
+  def test_control_bs54; assert_equal("Carbon dioxide sequestration rate of 2.4 Mt per annum by 2050 (chemical and mechanical processes)", worksheet.control_bs54); end
   def test_control_bt54; assert_equal("Carbon dioxide sequestration rate of 5.4 Mt per annum by 2050 (chemical and mechanical)", worksheet.control_bt54); end
   def test_control_bq55; assert_equal("1.8 GW pumped storage & 1.4 GW interconnection with UK for balancing", worksheet.control_bq55); end
   def test_control_br55; assert_equal("1.8 GW (air or pumped) storage & 1.8 GW interconnection with Europe for balancing", worksheet.control_br55); end
