@@ -432,448 +432,336 @@ class Model
     attach_function 'control_q4', [], ExcelValue.by_value
     attach_function 'control_r4', [], ExcelValue.by_value
     attach_function 'control_s4', [], ExcelValue.by_value
-    attach_function 'control_t4', [], ExcelValue.by_value
-    attach_function 'control_u4', [], ExcelValue.by_value
     attach_function 'control_n5', [], ExcelValue.by_value
     attach_function 'control_o5', [], ExcelValue.by_value
     attach_function 'control_p5', [], ExcelValue.by_value
     attach_function 'control_q5', [], ExcelValue.by_value
     attach_function 'control_r5', [], ExcelValue.by_value
     attach_function 'control_s5', [], ExcelValue.by_value
-    attach_function 'control_t5', [], ExcelValue.by_value
-    attach_function 'control_u5', [], ExcelValue.by_value
     attach_function 'control_n6', [], ExcelValue.by_value
     attach_function 'control_o6', [], ExcelValue.by_value
     attach_function 'control_p6', [], ExcelValue.by_value
     attach_function 'control_q6', [], ExcelValue.by_value
     attach_function 'control_r6', [], ExcelValue.by_value
     attach_function 'control_s6', [], ExcelValue.by_value
-    attach_function 'control_t6', [], ExcelValue.by_value
-    attach_function 'control_u6', [], ExcelValue.by_value
     attach_function 'control_n7', [], ExcelValue.by_value
     attach_function 'control_o7', [], ExcelValue.by_value
     attach_function 'control_p7', [], ExcelValue.by_value
     attach_function 'control_q7', [], ExcelValue.by_value
     attach_function 'control_r7', [], ExcelValue.by_value
     attach_function 'control_s7', [], ExcelValue.by_value
-    attach_function 'control_t7', [], ExcelValue.by_value
-    attach_function 'control_u7', [], ExcelValue.by_value
     attach_function 'control_n8', [], ExcelValue.by_value
     attach_function 'control_o8', [], ExcelValue.by_value
     attach_function 'control_p8', [], ExcelValue.by_value
     attach_function 'control_q8', [], ExcelValue.by_value
     attach_function 'control_r8', [], ExcelValue.by_value
     attach_function 'control_s8', [], ExcelValue.by_value
-    attach_function 'control_t8', [], ExcelValue.by_value
-    attach_function 'control_u8', [], ExcelValue.by_value
     attach_function 'control_n9', [], ExcelValue.by_value
     attach_function 'control_o9', [], ExcelValue.by_value
     attach_function 'control_p9', [], ExcelValue.by_value
     attach_function 'control_q9', [], ExcelValue.by_value
     attach_function 'control_r9', [], ExcelValue.by_value
     attach_function 'control_s9', [], ExcelValue.by_value
-    attach_function 'control_t9', [], ExcelValue.by_value
-    attach_function 'control_u9', [], ExcelValue.by_value
     attach_function 'control_n10', [], ExcelValue.by_value
     attach_function 'control_o10', [], ExcelValue.by_value
     attach_function 'control_p10', [], ExcelValue.by_value
     attach_function 'control_q10', [], ExcelValue.by_value
     attach_function 'control_r10', [], ExcelValue.by_value
     attach_function 'control_s10', [], ExcelValue.by_value
-    attach_function 'control_t10', [], ExcelValue.by_value
-    attach_function 'control_u10', [], ExcelValue.by_value
     attach_function 'control_n11', [], ExcelValue.by_value
     attach_function 'control_o11', [], ExcelValue.by_value
     attach_function 'control_p11', [], ExcelValue.by_value
     attach_function 'control_q11', [], ExcelValue.by_value
     attach_function 'control_r11', [], ExcelValue.by_value
     attach_function 'control_s11', [], ExcelValue.by_value
-    attach_function 'control_t11', [], ExcelValue.by_value
-    attach_function 'control_u11', [], ExcelValue.by_value
     attach_function 'control_n12', [], ExcelValue.by_value
     attach_function 'control_o12', [], ExcelValue.by_value
     attach_function 'control_p12', [], ExcelValue.by_value
     attach_function 'control_q12', [], ExcelValue.by_value
     attach_function 'control_r12', [], ExcelValue.by_value
     attach_function 'control_s12', [], ExcelValue.by_value
-    attach_function 'control_t12', [], ExcelValue.by_value
-    attach_function 'control_u12', [], ExcelValue.by_value
     attach_function 'control_n13', [], ExcelValue.by_value
     attach_function 'control_o13', [], ExcelValue.by_value
     attach_function 'control_p13', [], ExcelValue.by_value
     attach_function 'control_q13', [], ExcelValue.by_value
     attach_function 'control_r13', [], ExcelValue.by_value
     attach_function 'control_s13', [], ExcelValue.by_value
-    attach_function 'control_t13', [], ExcelValue.by_value
-    attach_function 'control_u13', [], ExcelValue.by_value
     attach_function 'control_n14', [], ExcelValue.by_value
     attach_function 'control_o14', [], ExcelValue.by_value
     attach_function 'control_p14', [], ExcelValue.by_value
     attach_function 'control_q14', [], ExcelValue.by_value
     attach_function 'control_r14', [], ExcelValue.by_value
     attach_function 'control_s14', [], ExcelValue.by_value
-    attach_function 'control_t14', [], ExcelValue.by_value
-    attach_function 'control_u14', [], ExcelValue.by_value
     attach_function 'control_n15', [], ExcelValue.by_value
     attach_function 'control_o15', [], ExcelValue.by_value
     attach_function 'control_p15', [], ExcelValue.by_value
     attach_function 'control_q15', [], ExcelValue.by_value
     attach_function 'control_r15', [], ExcelValue.by_value
     attach_function 'control_s15', [], ExcelValue.by_value
-    attach_function 'control_t15', [], ExcelValue.by_value
-    attach_function 'control_u15', [], ExcelValue.by_value
     attach_function 'control_n16', [], ExcelValue.by_value
     attach_function 'control_o16', [], ExcelValue.by_value
     attach_function 'control_p16', [], ExcelValue.by_value
     attach_function 'control_q16', [], ExcelValue.by_value
     attach_function 'control_r16', [], ExcelValue.by_value
     attach_function 'control_s16', [], ExcelValue.by_value
-    attach_function 'control_t16', [], ExcelValue.by_value
-    attach_function 'control_u16', [], ExcelValue.by_value
     attach_function 'control_n17', [], ExcelValue.by_value
     attach_function 'control_o17', [], ExcelValue.by_value
     attach_function 'control_p17', [], ExcelValue.by_value
     attach_function 'control_q17', [], ExcelValue.by_value
     attach_function 'control_r17', [], ExcelValue.by_value
     attach_function 'control_s17', [], ExcelValue.by_value
-    attach_function 'control_t17', [], ExcelValue.by_value
-    attach_function 'control_u17', [], ExcelValue.by_value
     attach_function 'control_n18', [], ExcelValue.by_value
     attach_function 'control_o18', [], ExcelValue.by_value
     attach_function 'control_p18', [], ExcelValue.by_value
     attach_function 'control_q18', [], ExcelValue.by_value
     attach_function 'control_r18', [], ExcelValue.by_value
     attach_function 'control_s18', [], ExcelValue.by_value
-    attach_function 'control_t18', [], ExcelValue.by_value
-    attach_function 'control_u18', [], ExcelValue.by_value
     attach_function 'control_n19', [], ExcelValue.by_value
     attach_function 'control_o19', [], ExcelValue.by_value
     attach_function 'control_p19', [], ExcelValue.by_value
     attach_function 'control_q19', [], ExcelValue.by_value
     attach_function 'control_r19', [], ExcelValue.by_value
     attach_function 'control_s19', [], ExcelValue.by_value
-    attach_function 'control_t19', [], ExcelValue.by_value
-    attach_function 'control_u19', [], ExcelValue.by_value
     attach_function 'control_n20', [], ExcelValue.by_value
     attach_function 'control_o20', [], ExcelValue.by_value
     attach_function 'control_p20', [], ExcelValue.by_value
     attach_function 'control_q20', [], ExcelValue.by_value
     attach_function 'control_r20', [], ExcelValue.by_value
     attach_function 'control_s20', [], ExcelValue.by_value
-    attach_function 'control_t20', [], ExcelValue.by_value
-    attach_function 'control_u20', [], ExcelValue.by_value
     attach_function 'control_n21', [], ExcelValue.by_value
     attach_function 'control_o21', [], ExcelValue.by_value
     attach_function 'control_p21', [], ExcelValue.by_value
     attach_function 'control_q21', [], ExcelValue.by_value
     attach_function 'control_r21', [], ExcelValue.by_value
     attach_function 'control_s21', [], ExcelValue.by_value
-    attach_function 'control_t21', [], ExcelValue.by_value
-    attach_function 'control_u21', [], ExcelValue.by_value
     attach_function 'control_n22', [], ExcelValue.by_value
     attach_function 'control_o22', [], ExcelValue.by_value
     attach_function 'control_p22', [], ExcelValue.by_value
     attach_function 'control_q22', [], ExcelValue.by_value
     attach_function 'control_r22', [], ExcelValue.by_value
     attach_function 'control_s22', [], ExcelValue.by_value
-    attach_function 'control_t22', [], ExcelValue.by_value
-    attach_function 'control_u22', [], ExcelValue.by_value
     attach_function 'control_n23', [], ExcelValue.by_value
     attach_function 'control_o23', [], ExcelValue.by_value
     attach_function 'control_p23', [], ExcelValue.by_value
     attach_function 'control_q23', [], ExcelValue.by_value
     attach_function 'control_r23', [], ExcelValue.by_value
     attach_function 'control_s23', [], ExcelValue.by_value
-    attach_function 'control_t23', [], ExcelValue.by_value
-    attach_function 'control_u23', [], ExcelValue.by_value
     attach_function 'control_n24', [], ExcelValue.by_value
     attach_function 'control_o24', [], ExcelValue.by_value
     attach_function 'control_p24', [], ExcelValue.by_value
     attach_function 'control_q24', [], ExcelValue.by_value
     attach_function 'control_r24', [], ExcelValue.by_value
     attach_function 'control_s24', [], ExcelValue.by_value
-    attach_function 'control_t24', [], ExcelValue.by_value
-    attach_function 'control_u24', [], ExcelValue.by_value
     attach_function 'control_n25', [], ExcelValue.by_value
     attach_function 'control_o25', [], ExcelValue.by_value
     attach_function 'control_p25', [], ExcelValue.by_value
     attach_function 'control_q25', [], ExcelValue.by_value
     attach_function 'control_r25', [], ExcelValue.by_value
     attach_function 'control_s25', [], ExcelValue.by_value
-    attach_function 'control_t25', [], ExcelValue.by_value
-    attach_function 'control_u25', [], ExcelValue.by_value
     attach_function 'control_n26', [], ExcelValue.by_value
     attach_function 'control_o26', [], ExcelValue.by_value
     attach_function 'control_p26', [], ExcelValue.by_value
     attach_function 'control_q26', [], ExcelValue.by_value
     attach_function 'control_r26', [], ExcelValue.by_value
     attach_function 'control_s26', [], ExcelValue.by_value
-    attach_function 'control_t26', [], ExcelValue.by_value
-    attach_function 'control_u26', [], ExcelValue.by_value
     attach_function 'control_n27', [], ExcelValue.by_value
     attach_function 'control_o27', [], ExcelValue.by_value
     attach_function 'control_p27', [], ExcelValue.by_value
     attach_function 'control_q27', [], ExcelValue.by_value
     attach_function 'control_r27', [], ExcelValue.by_value
     attach_function 'control_s27', [], ExcelValue.by_value
-    attach_function 'control_t27', [], ExcelValue.by_value
-    attach_function 'control_u27', [], ExcelValue.by_value
     attach_function 'control_n28', [], ExcelValue.by_value
     attach_function 'control_o28', [], ExcelValue.by_value
     attach_function 'control_p28', [], ExcelValue.by_value
     attach_function 'control_q28', [], ExcelValue.by_value
     attach_function 'control_r28', [], ExcelValue.by_value
     attach_function 'control_s28', [], ExcelValue.by_value
-    attach_function 'control_t28', [], ExcelValue.by_value
-    attach_function 'control_u28', [], ExcelValue.by_value
     attach_function 'control_n29', [], ExcelValue.by_value
     attach_function 'control_o29', [], ExcelValue.by_value
     attach_function 'control_p29', [], ExcelValue.by_value
     attach_function 'control_q29', [], ExcelValue.by_value
     attach_function 'control_r29', [], ExcelValue.by_value
     attach_function 'control_s29', [], ExcelValue.by_value
-    attach_function 'control_t29', [], ExcelValue.by_value
-    attach_function 'control_u29', [], ExcelValue.by_value
     attach_function 'control_n30', [], ExcelValue.by_value
     attach_function 'control_o30', [], ExcelValue.by_value
     attach_function 'control_p30', [], ExcelValue.by_value
     attach_function 'control_q30', [], ExcelValue.by_value
     attach_function 'control_r30', [], ExcelValue.by_value
     attach_function 'control_s30', [], ExcelValue.by_value
-    attach_function 'control_t30', [], ExcelValue.by_value
-    attach_function 'control_u30', [], ExcelValue.by_value
     attach_function 'control_n31', [], ExcelValue.by_value
     attach_function 'control_o31', [], ExcelValue.by_value
     attach_function 'control_p31', [], ExcelValue.by_value
     attach_function 'control_q31', [], ExcelValue.by_value
     attach_function 'control_r31', [], ExcelValue.by_value
     attach_function 'control_s31', [], ExcelValue.by_value
-    attach_function 'control_t31', [], ExcelValue.by_value
-    attach_function 'control_u31', [], ExcelValue.by_value
     attach_function 'control_n32', [], ExcelValue.by_value
     attach_function 'control_o32', [], ExcelValue.by_value
     attach_function 'control_p32', [], ExcelValue.by_value
     attach_function 'control_q32', [], ExcelValue.by_value
     attach_function 'control_r32', [], ExcelValue.by_value
     attach_function 'control_s32', [], ExcelValue.by_value
-    attach_function 'control_t32', [], ExcelValue.by_value
-    attach_function 'control_u32', [], ExcelValue.by_value
     attach_function 'control_n33', [], ExcelValue.by_value
     attach_function 'control_o33', [], ExcelValue.by_value
     attach_function 'control_p33', [], ExcelValue.by_value
     attach_function 'control_q33', [], ExcelValue.by_value
     attach_function 'control_r33', [], ExcelValue.by_value
     attach_function 'control_s33', [], ExcelValue.by_value
-    attach_function 'control_t33', [], ExcelValue.by_value
-    attach_function 'control_u33', [], ExcelValue.by_value
     attach_function 'control_n34', [], ExcelValue.by_value
     attach_function 'control_o34', [], ExcelValue.by_value
     attach_function 'control_p34', [], ExcelValue.by_value
     attach_function 'control_q34', [], ExcelValue.by_value
     attach_function 'control_r34', [], ExcelValue.by_value
     attach_function 'control_s34', [], ExcelValue.by_value
-    attach_function 'control_t34', [], ExcelValue.by_value
-    attach_function 'control_u34', [], ExcelValue.by_value
     attach_function 'control_n35', [], ExcelValue.by_value
     attach_function 'control_o35', [], ExcelValue.by_value
     attach_function 'control_p35', [], ExcelValue.by_value
     attach_function 'control_q35', [], ExcelValue.by_value
     attach_function 'control_r35', [], ExcelValue.by_value
     attach_function 'control_s35', [], ExcelValue.by_value
-    attach_function 'control_t35', [], ExcelValue.by_value
-    attach_function 'control_u35', [], ExcelValue.by_value
     attach_function 'control_n36', [], ExcelValue.by_value
     attach_function 'control_o36', [], ExcelValue.by_value
     attach_function 'control_p36', [], ExcelValue.by_value
     attach_function 'control_q36', [], ExcelValue.by_value
     attach_function 'control_r36', [], ExcelValue.by_value
     attach_function 'control_s36', [], ExcelValue.by_value
-    attach_function 'control_t36', [], ExcelValue.by_value
-    attach_function 'control_u36', [], ExcelValue.by_value
     attach_function 'control_n37', [], ExcelValue.by_value
     attach_function 'control_o37', [], ExcelValue.by_value
     attach_function 'control_p37', [], ExcelValue.by_value
     attach_function 'control_q37', [], ExcelValue.by_value
     attach_function 'control_r37', [], ExcelValue.by_value
     attach_function 'control_s37', [], ExcelValue.by_value
-    attach_function 'control_t37', [], ExcelValue.by_value
-    attach_function 'control_u37', [], ExcelValue.by_value
     attach_function 'control_n38', [], ExcelValue.by_value
     attach_function 'control_o38', [], ExcelValue.by_value
     attach_function 'control_p38', [], ExcelValue.by_value
     attach_function 'control_q38', [], ExcelValue.by_value
     attach_function 'control_r38', [], ExcelValue.by_value
     attach_function 'control_s38', [], ExcelValue.by_value
-    attach_function 'control_t38', [], ExcelValue.by_value
-    attach_function 'control_u38', [], ExcelValue.by_value
     attach_function 'control_n39', [], ExcelValue.by_value
     attach_function 'control_o39', [], ExcelValue.by_value
     attach_function 'control_p39', [], ExcelValue.by_value
     attach_function 'control_q39', [], ExcelValue.by_value
     attach_function 'control_r39', [], ExcelValue.by_value
     attach_function 'control_s39', [], ExcelValue.by_value
-    attach_function 'control_t39', [], ExcelValue.by_value
-    attach_function 'control_u39', [], ExcelValue.by_value
     attach_function 'control_n40', [], ExcelValue.by_value
     attach_function 'control_o40', [], ExcelValue.by_value
     attach_function 'control_p40', [], ExcelValue.by_value
     attach_function 'control_q40', [], ExcelValue.by_value
     attach_function 'control_r40', [], ExcelValue.by_value
     attach_function 'control_s40', [], ExcelValue.by_value
-    attach_function 'control_t40', [], ExcelValue.by_value
-    attach_function 'control_u40', [], ExcelValue.by_value
     attach_function 'control_n41', [], ExcelValue.by_value
     attach_function 'control_o41', [], ExcelValue.by_value
     attach_function 'control_p41', [], ExcelValue.by_value
     attach_function 'control_q41', [], ExcelValue.by_value
     attach_function 'control_r41', [], ExcelValue.by_value
     attach_function 'control_s41', [], ExcelValue.by_value
-    attach_function 'control_t41', [], ExcelValue.by_value
-    attach_function 'control_u41', [], ExcelValue.by_value
     attach_function 'control_n42', [], ExcelValue.by_value
     attach_function 'control_o42', [], ExcelValue.by_value
     attach_function 'control_p42', [], ExcelValue.by_value
     attach_function 'control_q42', [], ExcelValue.by_value
     attach_function 'control_r42', [], ExcelValue.by_value
     attach_function 'control_s42', [], ExcelValue.by_value
-    attach_function 'control_t42', [], ExcelValue.by_value
-    attach_function 'control_u42', [], ExcelValue.by_value
     attach_function 'control_n43', [], ExcelValue.by_value
     attach_function 'control_o43', [], ExcelValue.by_value
     attach_function 'control_p43', [], ExcelValue.by_value
     attach_function 'control_q43', [], ExcelValue.by_value
     attach_function 'control_r43', [], ExcelValue.by_value
     attach_function 'control_s43', [], ExcelValue.by_value
-    attach_function 'control_t43', [], ExcelValue.by_value
-    attach_function 'control_u43', [], ExcelValue.by_value
     attach_function 'control_n44', [], ExcelValue.by_value
     attach_function 'control_o44', [], ExcelValue.by_value
     attach_function 'control_p44', [], ExcelValue.by_value
     attach_function 'control_q44', [], ExcelValue.by_value
     attach_function 'control_r44', [], ExcelValue.by_value
     attach_function 'control_s44', [], ExcelValue.by_value
-    attach_function 'control_t44', [], ExcelValue.by_value
-    attach_function 'control_u44', [], ExcelValue.by_value
     attach_function 'control_n45', [], ExcelValue.by_value
     attach_function 'control_o45', [], ExcelValue.by_value
     attach_function 'control_p45', [], ExcelValue.by_value
     attach_function 'control_q45', [], ExcelValue.by_value
     attach_function 'control_r45', [], ExcelValue.by_value
     attach_function 'control_s45', [], ExcelValue.by_value
-    attach_function 'control_t45', [], ExcelValue.by_value
-    attach_function 'control_u45', [], ExcelValue.by_value
     attach_function 'control_n46', [], ExcelValue.by_value
     attach_function 'control_o46', [], ExcelValue.by_value
     attach_function 'control_p46', [], ExcelValue.by_value
     attach_function 'control_q46', [], ExcelValue.by_value
     attach_function 'control_r46', [], ExcelValue.by_value
     attach_function 'control_s46', [], ExcelValue.by_value
-    attach_function 'control_t46', [], ExcelValue.by_value
-    attach_function 'control_u46', [], ExcelValue.by_value
     attach_function 'control_n47', [], ExcelValue.by_value
     attach_function 'control_o47', [], ExcelValue.by_value
     attach_function 'control_p47', [], ExcelValue.by_value
     attach_function 'control_q47', [], ExcelValue.by_value
     attach_function 'control_r47', [], ExcelValue.by_value
     attach_function 'control_s47', [], ExcelValue.by_value
-    attach_function 'control_t47', [], ExcelValue.by_value
-    attach_function 'control_u47', [], ExcelValue.by_value
     attach_function 'control_n48', [], ExcelValue.by_value
     attach_function 'control_o48', [], ExcelValue.by_value
     attach_function 'control_p48', [], ExcelValue.by_value
     attach_function 'control_q48', [], ExcelValue.by_value
     attach_function 'control_r48', [], ExcelValue.by_value
     attach_function 'control_s48', [], ExcelValue.by_value
-    attach_function 'control_t48', [], ExcelValue.by_value
-    attach_function 'control_u48', [], ExcelValue.by_value
     attach_function 'control_n49', [], ExcelValue.by_value
     attach_function 'control_o49', [], ExcelValue.by_value
     attach_function 'control_p49', [], ExcelValue.by_value
     attach_function 'control_q49', [], ExcelValue.by_value
     attach_function 'control_r49', [], ExcelValue.by_value
     attach_function 'control_s49', [], ExcelValue.by_value
-    attach_function 'control_t49', [], ExcelValue.by_value
-    attach_function 'control_u49', [], ExcelValue.by_value
     attach_function 'control_n50', [], ExcelValue.by_value
     attach_function 'control_o50', [], ExcelValue.by_value
     attach_function 'control_p50', [], ExcelValue.by_value
     attach_function 'control_q50', [], ExcelValue.by_value
     attach_function 'control_r50', [], ExcelValue.by_value
     attach_function 'control_s50', [], ExcelValue.by_value
-    attach_function 'control_t50', [], ExcelValue.by_value
-    attach_function 'control_u50', [], ExcelValue.by_value
     attach_function 'control_n51', [], ExcelValue.by_value
     attach_function 'control_o51', [], ExcelValue.by_value
     attach_function 'control_p51', [], ExcelValue.by_value
     attach_function 'control_q51', [], ExcelValue.by_value
     attach_function 'control_r51', [], ExcelValue.by_value
     attach_function 'control_s51', [], ExcelValue.by_value
-    attach_function 'control_t51', [], ExcelValue.by_value
-    attach_function 'control_u51', [], ExcelValue.by_value
     attach_function 'control_n52', [], ExcelValue.by_value
     attach_function 'control_o52', [], ExcelValue.by_value
     attach_function 'control_p52', [], ExcelValue.by_value
     attach_function 'control_q52', [], ExcelValue.by_value
     attach_function 'control_r52', [], ExcelValue.by_value
     attach_function 'control_s52', [], ExcelValue.by_value
-    attach_function 'control_t52', [], ExcelValue.by_value
-    attach_function 'control_u52', [], ExcelValue.by_value
     attach_function 'control_n53', [], ExcelValue.by_value
     attach_function 'control_o53', [], ExcelValue.by_value
     attach_function 'control_p53', [], ExcelValue.by_value
     attach_function 'control_q53', [], ExcelValue.by_value
     attach_function 'control_r53', [], ExcelValue.by_value
     attach_function 'control_s53', [], ExcelValue.by_value
-    attach_function 'control_t53', [], ExcelValue.by_value
-    attach_function 'control_u53', [], ExcelValue.by_value
     attach_function 'control_n54', [], ExcelValue.by_value
     attach_function 'control_o54', [], ExcelValue.by_value
     attach_function 'control_p54', [], ExcelValue.by_value
     attach_function 'control_q54', [], ExcelValue.by_value
     attach_function 'control_r54', [], ExcelValue.by_value
     attach_function 'control_s54', [], ExcelValue.by_value
-    attach_function 'control_t54', [], ExcelValue.by_value
-    attach_function 'control_u54', [], ExcelValue.by_value
     attach_function 'control_n55', [], ExcelValue.by_value
     attach_function 'control_o55', [], ExcelValue.by_value
     attach_function 'control_p55', [], ExcelValue.by_value
     attach_function 'control_q55', [], ExcelValue.by_value
     attach_function 'control_r55', [], ExcelValue.by_value
     attach_function 'control_s55', [], ExcelValue.by_value
-    attach_function 'control_t55', [], ExcelValue.by_value
-    attach_function 'control_u55', [], ExcelValue.by_value
     attach_function 'control_n56', [], ExcelValue.by_value
     attach_function 'control_o56', [], ExcelValue.by_value
     attach_function 'control_p56', [], ExcelValue.by_value
     attach_function 'control_q56', [], ExcelValue.by_value
     attach_function 'control_r56', [], ExcelValue.by_value
     attach_function 'control_s56', [], ExcelValue.by_value
-    attach_function 'control_t56', [], ExcelValue.by_value
-    attach_function 'control_u56', [], ExcelValue.by_value
     attach_function 'control_n57', [], ExcelValue.by_value
     attach_function 'control_o57', [], ExcelValue.by_value
     attach_function 'control_p57', [], ExcelValue.by_value
     attach_function 'control_q57', [], ExcelValue.by_value
     attach_function 'control_r57', [], ExcelValue.by_value
     attach_function 'control_s57', [], ExcelValue.by_value
-    attach_function 'control_t57', [], ExcelValue.by_value
-    attach_function 'control_u57', [], ExcelValue.by_value
     attach_function 'control_n58', [], ExcelValue.by_value
     attach_function 'control_o58', [], ExcelValue.by_value
     attach_function 'control_p58', [], ExcelValue.by_value
     attach_function 'control_q58', [], ExcelValue.by_value
     attach_function 'control_r58', [], ExcelValue.by_value
     attach_function 'control_s58', [], ExcelValue.by_value
-    attach_function 'control_t58', [], ExcelValue.by_value
-    attach_function 'control_u58', [], ExcelValue.by_value
     attach_function 'control_n59', [], ExcelValue.by_value
     attach_function 'control_o59', [], ExcelValue.by_value
     attach_function 'control_p59', [], ExcelValue.by_value
     attach_function 'control_q59', [], ExcelValue.by_value
     attach_function 'control_r59', [], ExcelValue.by_value
     attach_function 'control_s59', [], ExcelValue.by_value
-    attach_function 'control_t59', [], ExcelValue.by_value
-    attach_function 'control_u59', [], ExcelValue.by_value
     attach_function 'control_bq5', [], ExcelValue.by_value
     attach_function 'control_br5', [], ExcelValue.by_value
     attach_function 'control_bs5', [], ExcelValue.by_value
