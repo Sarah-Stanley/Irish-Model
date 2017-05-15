@@ -432,336 +432,560 @@ class Model
     attach_function 'control_q4', [], ExcelValue.by_value
     attach_function 'control_r4', [], ExcelValue.by_value
     attach_function 'control_s4', [], ExcelValue.by_value
+    attach_function 'control_t4', [], ExcelValue.by_value
+    attach_function 'control_u4', [], ExcelValue.by_value
+    attach_function 'control_v4', [], ExcelValue.by_value
+    attach_function 'control_w4', [], ExcelValue.by_value
     attach_function 'control_n5', [], ExcelValue.by_value
     attach_function 'control_o5', [], ExcelValue.by_value
     attach_function 'control_p5', [], ExcelValue.by_value
     attach_function 'control_q5', [], ExcelValue.by_value
     attach_function 'control_r5', [], ExcelValue.by_value
     attach_function 'control_s5', [], ExcelValue.by_value
+    attach_function 'control_t5', [], ExcelValue.by_value
+    attach_function 'control_u5', [], ExcelValue.by_value
+    attach_function 'control_v5', [], ExcelValue.by_value
+    attach_function 'control_w5', [], ExcelValue.by_value
     attach_function 'control_n6', [], ExcelValue.by_value
     attach_function 'control_o6', [], ExcelValue.by_value
     attach_function 'control_p6', [], ExcelValue.by_value
     attach_function 'control_q6', [], ExcelValue.by_value
     attach_function 'control_r6', [], ExcelValue.by_value
     attach_function 'control_s6', [], ExcelValue.by_value
+    attach_function 'control_t6', [], ExcelValue.by_value
+    attach_function 'control_u6', [], ExcelValue.by_value
+    attach_function 'control_v6', [], ExcelValue.by_value
+    attach_function 'control_w6', [], ExcelValue.by_value
     attach_function 'control_n7', [], ExcelValue.by_value
     attach_function 'control_o7', [], ExcelValue.by_value
     attach_function 'control_p7', [], ExcelValue.by_value
     attach_function 'control_q7', [], ExcelValue.by_value
     attach_function 'control_r7', [], ExcelValue.by_value
     attach_function 'control_s7', [], ExcelValue.by_value
+    attach_function 'control_t7', [], ExcelValue.by_value
+    attach_function 'control_u7', [], ExcelValue.by_value
+    attach_function 'control_v7', [], ExcelValue.by_value
+    attach_function 'control_w7', [], ExcelValue.by_value
     attach_function 'control_n8', [], ExcelValue.by_value
     attach_function 'control_o8', [], ExcelValue.by_value
     attach_function 'control_p8', [], ExcelValue.by_value
     attach_function 'control_q8', [], ExcelValue.by_value
     attach_function 'control_r8', [], ExcelValue.by_value
     attach_function 'control_s8', [], ExcelValue.by_value
+    attach_function 'control_t8', [], ExcelValue.by_value
+    attach_function 'control_u8', [], ExcelValue.by_value
+    attach_function 'control_v8', [], ExcelValue.by_value
+    attach_function 'control_w8', [], ExcelValue.by_value
     attach_function 'control_n9', [], ExcelValue.by_value
     attach_function 'control_o9', [], ExcelValue.by_value
     attach_function 'control_p9', [], ExcelValue.by_value
     attach_function 'control_q9', [], ExcelValue.by_value
     attach_function 'control_r9', [], ExcelValue.by_value
     attach_function 'control_s9', [], ExcelValue.by_value
+    attach_function 'control_t9', [], ExcelValue.by_value
+    attach_function 'control_u9', [], ExcelValue.by_value
+    attach_function 'control_v9', [], ExcelValue.by_value
+    attach_function 'control_w9', [], ExcelValue.by_value
     attach_function 'control_n10', [], ExcelValue.by_value
     attach_function 'control_o10', [], ExcelValue.by_value
     attach_function 'control_p10', [], ExcelValue.by_value
     attach_function 'control_q10', [], ExcelValue.by_value
     attach_function 'control_r10', [], ExcelValue.by_value
     attach_function 'control_s10', [], ExcelValue.by_value
+    attach_function 'control_t10', [], ExcelValue.by_value
+    attach_function 'control_u10', [], ExcelValue.by_value
+    attach_function 'control_v10', [], ExcelValue.by_value
+    attach_function 'control_w10', [], ExcelValue.by_value
     attach_function 'control_n11', [], ExcelValue.by_value
     attach_function 'control_o11', [], ExcelValue.by_value
     attach_function 'control_p11', [], ExcelValue.by_value
     attach_function 'control_q11', [], ExcelValue.by_value
     attach_function 'control_r11', [], ExcelValue.by_value
     attach_function 'control_s11', [], ExcelValue.by_value
+    attach_function 'control_t11', [], ExcelValue.by_value
+    attach_function 'control_u11', [], ExcelValue.by_value
+    attach_function 'control_v11', [], ExcelValue.by_value
+    attach_function 'control_w11', [], ExcelValue.by_value
     attach_function 'control_n12', [], ExcelValue.by_value
     attach_function 'control_o12', [], ExcelValue.by_value
     attach_function 'control_p12', [], ExcelValue.by_value
     attach_function 'control_q12', [], ExcelValue.by_value
     attach_function 'control_r12', [], ExcelValue.by_value
     attach_function 'control_s12', [], ExcelValue.by_value
+    attach_function 'control_t12', [], ExcelValue.by_value
+    attach_function 'control_u12', [], ExcelValue.by_value
+    attach_function 'control_v12', [], ExcelValue.by_value
+    attach_function 'control_w12', [], ExcelValue.by_value
     attach_function 'control_n13', [], ExcelValue.by_value
     attach_function 'control_o13', [], ExcelValue.by_value
     attach_function 'control_p13', [], ExcelValue.by_value
     attach_function 'control_q13', [], ExcelValue.by_value
     attach_function 'control_r13', [], ExcelValue.by_value
     attach_function 'control_s13', [], ExcelValue.by_value
+    attach_function 'control_t13', [], ExcelValue.by_value
+    attach_function 'control_u13', [], ExcelValue.by_value
+    attach_function 'control_v13', [], ExcelValue.by_value
+    attach_function 'control_w13', [], ExcelValue.by_value
     attach_function 'control_n14', [], ExcelValue.by_value
     attach_function 'control_o14', [], ExcelValue.by_value
     attach_function 'control_p14', [], ExcelValue.by_value
     attach_function 'control_q14', [], ExcelValue.by_value
     attach_function 'control_r14', [], ExcelValue.by_value
     attach_function 'control_s14', [], ExcelValue.by_value
+    attach_function 'control_t14', [], ExcelValue.by_value
+    attach_function 'control_u14', [], ExcelValue.by_value
+    attach_function 'control_v14', [], ExcelValue.by_value
+    attach_function 'control_w14', [], ExcelValue.by_value
     attach_function 'control_n15', [], ExcelValue.by_value
     attach_function 'control_o15', [], ExcelValue.by_value
     attach_function 'control_p15', [], ExcelValue.by_value
     attach_function 'control_q15', [], ExcelValue.by_value
     attach_function 'control_r15', [], ExcelValue.by_value
     attach_function 'control_s15', [], ExcelValue.by_value
+    attach_function 'control_t15', [], ExcelValue.by_value
+    attach_function 'control_u15', [], ExcelValue.by_value
+    attach_function 'control_v15', [], ExcelValue.by_value
+    attach_function 'control_w15', [], ExcelValue.by_value
     attach_function 'control_n16', [], ExcelValue.by_value
     attach_function 'control_o16', [], ExcelValue.by_value
     attach_function 'control_p16', [], ExcelValue.by_value
     attach_function 'control_q16', [], ExcelValue.by_value
     attach_function 'control_r16', [], ExcelValue.by_value
     attach_function 'control_s16', [], ExcelValue.by_value
+    attach_function 'control_t16', [], ExcelValue.by_value
+    attach_function 'control_u16', [], ExcelValue.by_value
+    attach_function 'control_v16', [], ExcelValue.by_value
+    attach_function 'control_w16', [], ExcelValue.by_value
     attach_function 'control_n17', [], ExcelValue.by_value
     attach_function 'control_o17', [], ExcelValue.by_value
     attach_function 'control_p17', [], ExcelValue.by_value
     attach_function 'control_q17', [], ExcelValue.by_value
     attach_function 'control_r17', [], ExcelValue.by_value
     attach_function 'control_s17', [], ExcelValue.by_value
+    attach_function 'control_t17', [], ExcelValue.by_value
+    attach_function 'control_u17', [], ExcelValue.by_value
+    attach_function 'control_v17', [], ExcelValue.by_value
+    attach_function 'control_w17', [], ExcelValue.by_value
     attach_function 'control_n18', [], ExcelValue.by_value
     attach_function 'control_o18', [], ExcelValue.by_value
     attach_function 'control_p18', [], ExcelValue.by_value
     attach_function 'control_q18', [], ExcelValue.by_value
     attach_function 'control_r18', [], ExcelValue.by_value
     attach_function 'control_s18', [], ExcelValue.by_value
+    attach_function 'control_t18', [], ExcelValue.by_value
+    attach_function 'control_u18', [], ExcelValue.by_value
+    attach_function 'control_v18', [], ExcelValue.by_value
+    attach_function 'control_w18', [], ExcelValue.by_value
     attach_function 'control_n19', [], ExcelValue.by_value
     attach_function 'control_o19', [], ExcelValue.by_value
     attach_function 'control_p19', [], ExcelValue.by_value
     attach_function 'control_q19', [], ExcelValue.by_value
     attach_function 'control_r19', [], ExcelValue.by_value
     attach_function 'control_s19', [], ExcelValue.by_value
+    attach_function 'control_t19', [], ExcelValue.by_value
+    attach_function 'control_u19', [], ExcelValue.by_value
+    attach_function 'control_v19', [], ExcelValue.by_value
+    attach_function 'control_w19', [], ExcelValue.by_value
     attach_function 'control_n20', [], ExcelValue.by_value
     attach_function 'control_o20', [], ExcelValue.by_value
     attach_function 'control_p20', [], ExcelValue.by_value
     attach_function 'control_q20', [], ExcelValue.by_value
     attach_function 'control_r20', [], ExcelValue.by_value
     attach_function 'control_s20', [], ExcelValue.by_value
+    attach_function 'control_t20', [], ExcelValue.by_value
+    attach_function 'control_u20', [], ExcelValue.by_value
+    attach_function 'control_v20', [], ExcelValue.by_value
+    attach_function 'control_w20', [], ExcelValue.by_value
     attach_function 'control_n21', [], ExcelValue.by_value
     attach_function 'control_o21', [], ExcelValue.by_value
     attach_function 'control_p21', [], ExcelValue.by_value
     attach_function 'control_q21', [], ExcelValue.by_value
     attach_function 'control_r21', [], ExcelValue.by_value
     attach_function 'control_s21', [], ExcelValue.by_value
+    attach_function 'control_t21', [], ExcelValue.by_value
+    attach_function 'control_u21', [], ExcelValue.by_value
+    attach_function 'control_v21', [], ExcelValue.by_value
+    attach_function 'control_w21', [], ExcelValue.by_value
     attach_function 'control_n22', [], ExcelValue.by_value
     attach_function 'control_o22', [], ExcelValue.by_value
     attach_function 'control_p22', [], ExcelValue.by_value
     attach_function 'control_q22', [], ExcelValue.by_value
     attach_function 'control_r22', [], ExcelValue.by_value
     attach_function 'control_s22', [], ExcelValue.by_value
+    attach_function 'control_t22', [], ExcelValue.by_value
+    attach_function 'control_u22', [], ExcelValue.by_value
+    attach_function 'control_v22', [], ExcelValue.by_value
+    attach_function 'control_w22', [], ExcelValue.by_value
     attach_function 'control_n23', [], ExcelValue.by_value
     attach_function 'control_o23', [], ExcelValue.by_value
     attach_function 'control_p23', [], ExcelValue.by_value
     attach_function 'control_q23', [], ExcelValue.by_value
     attach_function 'control_r23', [], ExcelValue.by_value
     attach_function 'control_s23', [], ExcelValue.by_value
+    attach_function 'control_t23', [], ExcelValue.by_value
+    attach_function 'control_u23', [], ExcelValue.by_value
+    attach_function 'control_v23', [], ExcelValue.by_value
+    attach_function 'control_w23', [], ExcelValue.by_value
     attach_function 'control_n24', [], ExcelValue.by_value
     attach_function 'control_o24', [], ExcelValue.by_value
     attach_function 'control_p24', [], ExcelValue.by_value
     attach_function 'control_q24', [], ExcelValue.by_value
     attach_function 'control_r24', [], ExcelValue.by_value
     attach_function 'control_s24', [], ExcelValue.by_value
+    attach_function 'control_t24', [], ExcelValue.by_value
+    attach_function 'control_u24', [], ExcelValue.by_value
+    attach_function 'control_v24', [], ExcelValue.by_value
+    attach_function 'control_w24', [], ExcelValue.by_value
     attach_function 'control_n25', [], ExcelValue.by_value
     attach_function 'control_o25', [], ExcelValue.by_value
     attach_function 'control_p25', [], ExcelValue.by_value
     attach_function 'control_q25', [], ExcelValue.by_value
     attach_function 'control_r25', [], ExcelValue.by_value
     attach_function 'control_s25', [], ExcelValue.by_value
+    attach_function 'control_t25', [], ExcelValue.by_value
+    attach_function 'control_u25', [], ExcelValue.by_value
+    attach_function 'control_v25', [], ExcelValue.by_value
+    attach_function 'control_w25', [], ExcelValue.by_value
     attach_function 'control_n26', [], ExcelValue.by_value
     attach_function 'control_o26', [], ExcelValue.by_value
     attach_function 'control_p26', [], ExcelValue.by_value
     attach_function 'control_q26', [], ExcelValue.by_value
     attach_function 'control_r26', [], ExcelValue.by_value
     attach_function 'control_s26', [], ExcelValue.by_value
+    attach_function 'control_t26', [], ExcelValue.by_value
+    attach_function 'control_u26', [], ExcelValue.by_value
+    attach_function 'control_v26', [], ExcelValue.by_value
+    attach_function 'control_w26', [], ExcelValue.by_value
     attach_function 'control_n27', [], ExcelValue.by_value
     attach_function 'control_o27', [], ExcelValue.by_value
     attach_function 'control_p27', [], ExcelValue.by_value
     attach_function 'control_q27', [], ExcelValue.by_value
     attach_function 'control_r27', [], ExcelValue.by_value
     attach_function 'control_s27', [], ExcelValue.by_value
+    attach_function 'control_t27', [], ExcelValue.by_value
+    attach_function 'control_u27', [], ExcelValue.by_value
+    attach_function 'control_v27', [], ExcelValue.by_value
+    attach_function 'control_w27', [], ExcelValue.by_value
     attach_function 'control_n28', [], ExcelValue.by_value
     attach_function 'control_o28', [], ExcelValue.by_value
     attach_function 'control_p28', [], ExcelValue.by_value
     attach_function 'control_q28', [], ExcelValue.by_value
     attach_function 'control_r28', [], ExcelValue.by_value
     attach_function 'control_s28', [], ExcelValue.by_value
+    attach_function 'control_t28', [], ExcelValue.by_value
+    attach_function 'control_u28', [], ExcelValue.by_value
+    attach_function 'control_v28', [], ExcelValue.by_value
+    attach_function 'control_w28', [], ExcelValue.by_value
     attach_function 'control_n29', [], ExcelValue.by_value
     attach_function 'control_o29', [], ExcelValue.by_value
     attach_function 'control_p29', [], ExcelValue.by_value
     attach_function 'control_q29', [], ExcelValue.by_value
     attach_function 'control_r29', [], ExcelValue.by_value
     attach_function 'control_s29', [], ExcelValue.by_value
+    attach_function 'control_t29', [], ExcelValue.by_value
+    attach_function 'control_u29', [], ExcelValue.by_value
+    attach_function 'control_v29', [], ExcelValue.by_value
+    attach_function 'control_w29', [], ExcelValue.by_value
     attach_function 'control_n30', [], ExcelValue.by_value
     attach_function 'control_o30', [], ExcelValue.by_value
     attach_function 'control_p30', [], ExcelValue.by_value
     attach_function 'control_q30', [], ExcelValue.by_value
     attach_function 'control_r30', [], ExcelValue.by_value
     attach_function 'control_s30', [], ExcelValue.by_value
+    attach_function 'control_t30', [], ExcelValue.by_value
+    attach_function 'control_u30', [], ExcelValue.by_value
+    attach_function 'control_v30', [], ExcelValue.by_value
+    attach_function 'control_w30', [], ExcelValue.by_value
     attach_function 'control_n31', [], ExcelValue.by_value
     attach_function 'control_o31', [], ExcelValue.by_value
     attach_function 'control_p31', [], ExcelValue.by_value
     attach_function 'control_q31', [], ExcelValue.by_value
     attach_function 'control_r31', [], ExcelValue.by_value
     attach_function 'control_s31', [], ExcelValue.by_value
+    attach_function 'control_t31', [], ExcelValue.by_value
+    attach_function 'control_u31', [], ExcelValue.by_value
+    attach_function 'control_v31', [], ExcelValue.by_value
+    attach_function 'control_w31', [], ExcelValue.by_value
     attach_function 'control_n32', [], ExcelValue.by_value
     attach_function 'control_o32', [], ExcelValue.by_value
     attach_function 'control_p32', [], ExcelValue.by_value
     attach_function 'control_q32', [], ExcelValue.by_value
     attach_function 'control_r32', [], ExcelValue.by_value
     attach_function 'control_s32', [], ExcelValue.by_value
+    attach_function 'control_t32', [], ExcelValue.by_value
+    attach_function 'control_u32', [], ExcelValue.by_value
+    attach_function 'control_v32', [], ExcelValue.by_value
+    attach_function 'control_w32', [], ExcelValue.by_value
     attach_function 'control_n33', [], ExcelValue.by_value
     attach_function 'control_o33', [], ExcelValue.by_value
     attach_function 'control_p33', [], ExcelValue.by_value
     attach_function 'control_q33', [], ExcelValue.by_value
     attach_function 'control_r33', [], ExcelValue.by_value
     attach_function 'control_s33', [], ExcelValue.by_value
+    attach_function 'control_t33', [], ExcelValue.by_value
+    attach_function 'control_u33', [], ExcelValue.by_value
+    attach_function 'control_v33', [], ExcelValue.by_value
+    attach_function 'control_w33', [], ExcelValue.by_value
     attach_function 'control_n34', [], ExcelValue.by_value
     attach_function 'control_o34', [], ExcelValue.by_value
     attach_function 'control_p34', [], ExcelValue.by_value
     attach_function 'control_q34', [], ExcelValue.by_value
     attach_function 'control_r34', [], ExcelValue.by_value
     attach_function 'control_s34', [], ExcelValue.by_value
+    attach_function 'control_t34', [], ExcelValue.by_value
+    attach_function 'control_u34', [], ExcelValue.by_value
+    attach_function 'control_v34', [], ExcelValue.by_value
+    attach_function 'control_w34', [], ExcelValue.by_value
     attach_function 'control_n35', [], ExcelValue.by_value
     attach_function 'control_o35', [], ExcelValue.by_value
     attach_function 'control_p35', [], ExcelValue.by_value
     attach_function 'control_q35', [], ExcelValue.by_value
     attach_function 'control_r35', [], ExcelValue.by_value
     attach_function 'control_s35', [], ExcelValue.by_value
+    attach_function 'control_t35', [], ExcelValue.by_value
+    attach_function 'control_u35', [], ExcelValue.by_value
+    attach_function 'control_v35', [], ExcelValue.by_value
+    attach_function 'control_w35', [], ExcelValue.by_value
     attach_function 'control_n36', [], ExcelValue.by_value
     attach_function 'control_o36', [], ExcelValue.by_value
     attach_function 'control_p36', [], ExcelValue.by_value
     attach_function 'control_q36', [], ExcelValue.by_value
     attach_function 'control_r36', [], ExcelValue.by_value
     attach_function 'control_s36', [], ExcelValue.by_value
+    attach_function 'control_t36', [], ExcelValue.by_value
+    attach_function 'control_u36', [], ExcelValue.by_value
+    attach_function 'control_v36', [], ExcelValue.by_value
+    attach_function 'control_w36', [], ExcelValue.by_value
     attach_function 'control_n37', [], ExcelValue.by_value
     attach_function 'control_o37', [], ExcelValue.by_value
     attach_function 'control_p37', [], ExcelValue.by_value
     attach_function 'control_q37', [], ExcelValue.by_value
     attach_function 'control_r37', [], ExcelValue.by_value
     attach_function 'control_s37', [], ExcelValue.by_value
+    attach_function 'control_t37', [], ExcelValue.by_value
+    attach_function 'control_u37', [], ExcelValue.by_value
+    attach_function 'control_v37', [], ExcelValue.by_value
+    attach_function 'control_w37', [], ExcelValue.by_value
     attach_function 'control_n38', [], ExcelValue.by_value
     attach_function 'control_o38', [], ExcelValue.by_value
     attach_function 'control_p38', [], ExcelValue.by_value
     attach_function 'control_q38', [], ExcelValue.by_value
     attach_function 'control_r38', [], ExcelValue.by_value
     attach_function 'control_s38', [], ExcelValue.by_value
+    attach_function 'control_t38', [], ExcelValue.by_value
+    attach_function 'control_u38', [], ExcelValue.by_value
+    attach_function 'control_v38', [], ExcelValue.by_value
+    attach_function 'control_w38', [], ExcelValue.by_value
     attach_function 'control_n39', [], ExcelValue.by_value
     attach_function 'control_o39', [], ExcelValue.by_value
     attach_function 'control_p39', [], ExcelValue.by_value
     attach_function 'control_q39', [], ExcelValue.by_value
     attach_function 'control_r39', [], ExcelValue.by_value
     attach_function 'control_s39', [], ExcelValue.by_value
+    attach_function 'control_t39', [], ExcelValue.by_value
+    attach_function 'control_u39', [], ExcelValue.by_value
+    attach_function 'control_v39', [], ExcelValue.by_value
+    attach_function 'control_w39', [], ExcelValue.by_value
     attach_function 'control_n40', [], ExcelValue.by_value
     attach_function 'control_o40', [], ExcelValue.by_value
     attach_function 'control_p40', [], ExcelValue.by_value
     attach_function 'control_q40', [], ExcelValue.by_value
     attach_function 'control_r40', [], ExcelValue.by_value
     attach_function 'control_s40', [], ExcelValue.by_value
+    attach_function 'control_t40', [], ExcelValue.by_value
+    attach_function 'control_u40', [], ExcelValue.by_value
+    attach_function 'control_v40', [], ExcelValue.by_value
+    attach_function 'control_w40', [], ExcelValue.by_value
     attach_function 'control_n41', [], ExcelValue.by_value
     attach_function 'control_o41', [], ExcelValue.by_value
     attach_function 'control_p41', [], ExcelValue.by_value
     attach_function 'control_q41', [], ExcelValue.by_value
     attach_function 'control_r41', [], ExcelValue.by_value
     attach_function 'control_s41', [], ExcelValue.by_value
+    attach_function 'control_t41', [], ExcelValue.by_value
+    attach_function 'control_u41', [], ExcelValue.by_value
+    attach_function 'control_v41', [], ExcelValue.by_value
+    attach_function 'control_w41', [], ExcelValue.by_value
     attach_function 'control_n42', [], ExcelValue.by_value
     attach_function 'control_o42', [], ExcelValue.by_value
     attach_function 'control_p42', [], ExcelValue.by_value
     attach_function 'control_q42', [], ExcelValue.by_value
     attach_function 'control_r42', [], ExcelValue.by_value
     attach_function 'control_s42', [], ExcelValue.by_value
+    attach_function 'control_t42', [], ExcelValue.by_value
+    attach_function 'control_u42', [], ExcelValue.by_value
+    attach_function 'control_v42', [], ExcelValue.by_value
+    attach_function 'control_w42', [], ExcelValue.by_value
     attach_function 'control_n43', [], ExcelValue.by_value
     attach_function 'control_o43', [], ExcelValue.by_value
     attach_function 'control_p43', [], ExcelValue.by_value
     attach_function 'control_q43', [], ExcelValue.by_value
     attach_function 'control_r43', [], ExcelValue.by_value
     attach_function 'control_s43', [], ExcelValue.by_value
+    attach_function 'control_t43', [], ExcelValue.by_value
+    attach_function 'control_u43', [], ExcelValue.by_value
+    attach_function 'control_v43', [], ExcelValue.by_value
+    attach_function 'control_w43', [], ExcelValue.by_value
     attach_function 'control_n44', [], ExcelValue.by_value
     attach_function 'control_o44', [], ExcelValue.by_value
     attach_function 'control_p44', [], ExcelValue.by_value
     attach_function 'control_q44', [], ExcelValue.by_value
     attach_function 'control_r44', [], ExcelValue.by_value
     attach_function 'control_s44', [], ExcelValue.by_value
+    attach_function 'control_t44', [], ExcelValue.by_value
+    attach_function 'control_u44', [], ExcelValue.by_value
+    attach_function 'control_v44', [], ExcelValue.by_value
+    attach_function 'control_w44', [], ExcelValue.by_value
     attach_function 'control_n45', [], ExcelValue.by_value
     attach_function 'control_o45', [], ExcelValue.by_value
     attach_function 'control_p45', [], ExcelValue.by_value
     attach_function 'control_q45', [], ExcelValue.by_value
     attach_function 'control_r45', [], ExcelValue.by_value
     attach_function 'control_s45', [], ExcelValue.by_value
+    attach_function 'control_t45', [], ExcelValue.by_value
+    attach_function 'control_u45', [], ExcelValue.by_value
+    attach_function 'control_v45', [], ExcelValue.by_value
+    attach_function 'control_w45', [], ExcelValue.by_value
     attach_function 'control_n46', [], ExcelValue.by_value
     attach_function 'control_o46', [], ExcelValue.by_value
     attach_function 'control_p46', [], ExcelValue.by_value
     attach_function 'control_q46', [], ExcelValue.by_value
     attach_function 'control_r46', [], ExcelValue.by_value
     attach_function 'control_s46', [], ExcelValue.by_value
+    attach_function 'control_t46', [], ExcelValue.by_value
+    attach_function 'control_u46', [], ExcelValue.by_value
+    attach_function 'control_v46', [], ExcelValue.by_value
+    attach_function 'control_w46', [], ExcelValue.by_value
     attach_function 'control_n47', [], ExcelValue.by_value
     attach_function 'control_o47', [], ExcelValue.by_value
     attach_function 'control_p47', [], ExcelValue.by_value
     attach_function 'control_q47', [], ExcelValue.by_value
     attach_function 'control_r47', [], ExcelValue.by_value
     attach_function 'control_s47', [], ExcelValue.by_value
+    attach_function 'control_t47', [], ExcelValue.by_value
+    attach_function 'control_u47', [], ExcelValue.by_value
+    attach_function 'control_v47', [], ExcelValue.by_value
+    attach_function 'control_w47', [], ExcelValue.by_value
     attach_function 'control_n48', [], ExcelValue.by_value
     attach_function 'control_o48', [], ExcelValue.by_value
     attach_function 'control_p48', [], ExcelValue.by_value
     attach_function 'control_q48', [], ExcelValue.by_value
     attach_function 'control_r48', [], ExcelValue.by_value
     attach_function 'control_s48', [], ExcelValue.by_value
+    attach_function 'control_t48', [], ExcelValue.by_value
+    attach_function 'control_u48', [], ExcelValue.by_value
+    attach_function 'control_v48', [], ExcelValue.by_value
+    attach_function 'control_w48', [], ExcelValue.by_value
     attach_function 'control_n49', [], ExcelValue.by_value
     attach_function 'control_o49', [], ExcelValue.by_value
     attach_function 'control_p49', [], ExcelValue.by_value
     attach_function 'control_q49', [], ExcelValue.by_value
     attach_function 'control_r49', [], ExcelValue.by_value
     attach_function 'control_s49', [], ExcelValue.by_value
+    attach_function 'control_t49', [], ExcelValue.by_value
+    attach_function 'control_u49', [], ExcelValue.by_value
+    attach_function 'control_v49', [], ExcelValue.by_value
+    attach_function 'control_w49', [], ExcelValue.by_value
     attach_function 'control_n50', [], ExcelValue.by_value
     attach_function 'control_o50', [], ExcelValue.by_value
     attach_function 'control_p50', [], ExcelValue.by_value
     attach_function 'control_q50', [], ExcelValue.by_value
     attach_function 'control_r50', [], ExcelValue.by_value
     attach_function 'control_s50', [], ExcelValue.by_value
+    attach_function 'control_t50', [], ExcelValue.by_value
+    attach_function 'control_u50', [], ExcelValue.by_value
+    attach_function 'control_v50', [], ExcelValue.by_value
+    attach_function 'control_w50', [], ExcelValue.by_value
     attach_function 'control_n51', [], ExcelValue.by_value
     attach_function 'control_o51', [], ExcelValue.by_value
     attach_function 'control_p51', [], ExcelValue.by_value
     attach_function 'control_q51', [], ExcelValue.by_value
     attach_function 'control_r51', [], ExcelValue.by_value
     attach_function 'control_s51', [], ExcelValue.by_value
+    attach_function 'control_t51', [], ExcelValue.by_value
+    attach_function 'control_u51', [], ExcelValue.by_value
+    attach_function 'control_v51', [], ExcelValue.by_value
+    attach_function 'control_w51', [], ExcelValue.by_value
     attach_function 'control_n52', [], ExcelValue.by_value
     attach_function 'control_o52', [], ExcelValue.by_value
     attach_function 'control_p52', [], ExcelValue.by_value
     attach_function 'control_q52', [], ExcelValue.by_value
     attach_function 'control_r52', [], ExcelValue.by_value
     attach_function 'control_s52', [], ExcelValue.by_value
+    attach_function 'control_t52', [], ExcelValue.by_value
+    attach_function 'control_u52', [], ExcelValue.by_value
+    attach_function 'control_v52', [], ExcelValue.by_value
+    attach_function 'control_w52', [], ExcelValue.by_value
     attach_function 'control_n53', [], ExcelValue.by_value
     attach_function 'control_o53', [], ExcelValue.by_value
     attach_function 'control_p53', [], ExcelValue.by_value
     attach_function 'control_q53', [], ExcelValue.by_value
     attach_function 'control_r53', [], ExcelValue.by_value
     attach_function 'control_s53', [], ExcelValue.by_value
+    attach_function 'control_t53', [], ExcelValue.by_value
+    attach_function 'control_u53', [], ExcelValue.by_value
+    attach_function 'control_v53', [], ExcelValue.by_value
+    attach_function 'control_w53', [], ExcelValue.by_value
     attach_function 'control_n54', [], ExcelValue.by_value
     attach_function 'control_o54', [], ExcelValue.by_value
     attach_function 'control_p54', [], ExcelValue.by_value
     attach_function 'control_q54', [], ExcelValue.by_value
     attach_function 'control_r54', [], ExcelValue.by_value
     attach_function 'control_s54', [], ExcelValue.by_value
+    attach_function 'control_t54', [], ExcelValue.by_value
+    attach_function 'control_u54', [], ExcelValue.by_value
+    attach_function 'control_v54', [], ExcelValue.by_value
+    attach_function 'control_w54', [], ExcelValue.by_value
     attach_function 'control_n55', [], ExcelValue.by_value
     attach_function 'control_o55', [], ExcelValue.by_value
     attach_function 'control_p55', [], ExcelValue.by_value
     attach_function 'control_q55', [], ExcelValue.by_value
     attach_function 'control_r55', [], ExcelValue.by_value
     attach_function 'control_s55', [], ExcelValue.by_value
+    attach_function 'control_t55', [], ExcelValue.by_value
+    attach_function 'control_u55', [], ExcelValue.by_value
+    attach_function 'control_v55', [], ExcelValue.by_value
+    attach_function 'control_w55', [], ExcelValue.by_value
     attach_function 'control_n56', [], ExcelValue.by_value
     attach_function 'control_o56', [], ExcelValue.by_value
     attach_function 'control_p56', [], ExcelValue.by_value
     attach_function 'control_q56', [], ExcelValue.by_value
     attach_function 'control_r56', [], ExcelValue.by_value
     attach_function 'control_s56', [], ExcelValue.by_value
+    attach_function 'control_t56', [], ExcelValue.by_value
+    attach_function 'control_u56', [], ExcelValue.by_value
+    attach_function 'control_v56', [], ExcelValue.by_value
+    attach_function 'control_w56', [], ExcelValue.by_value
     attach_function 'control_n57', [], ExcelValue.by_value
     attach_function 'control_o57', [], ExcelValue.by_value
     attach_function 'control_p57', [], ExcelValue.by_value
     attach_function 'control_q57', [], ExcelValue.by_value
     attach_function 'control_r57', [], ExcelValue.by_value
     attach_function 'control_s57', [], ExcelValue.by_value
+    attach_function 'control_t57', [], ExcelValue.by_value
+    attach_function 'control_u57', [], ExcelValue.by_value
+    attach_function 'control_v57', [], ExcelValue.by_value
+    attach_function 'control_w57', [], ExcelValue.by_value
     attach_function 'control_n58', [], ExcelValue.by_value
     attach_function 'control_o58', [], ExcelValue.by_value
     attach_function 'control_p58', [], ExcelValue.by_value
     attach_function 'control_q58', [], ExcelValue.by_value
     attach_function 'control_r58', [], ExcelValue.by_value
     attach_function 'control_s58', [], ExcelValue.by_value
+    attach_function 'control_t58', [], ExcelValue.by_value
+    attach_function 'control_u58', [], ExcelValue.by_value
+    attach_function 'control_v58', [], ExcelValue.by_value
+    attach_function 'control_w58', [], ExcelValue.by_value
     attach_function 'control_n59', [], ExcelValue.by_value
     attach_function 'control_o59', [], ExcelValue.by_value
     attach_function 'control_p59', [], ExcelValue.by_value
     attach_function 'control_q59', [], ExcelValue.by_value
     attach_function 'control_r59', [], ExcelValue.by_value
     attach_function 'control_s59', [], ExcelValue.by_value
+    attach_function 'control_t59', [], ExcelValue.by_value
+    attach_function 'control_u59', [], ExcelValue.by_value
+    attach_function 'control_v59', [], ExcelValue.by_value
+    attach_function 'control_w59', [], ExcelValue.by_value
     attach_function 'control_bq5', [], ExcelValue.by_value
     attach_function 'control_br5', [], ExcelValue.by_value
     attach_function 'control_bs5', [], ExcelValue.by_value
@@ -7443,6 +7667,448 @@ class Model
     # end of Global Assumptions
     # end of Constants
     # end of Structure of the model
+    # end of AQ Ref
+    # end of AQ
+    attach_function 'costs_per_capita_e202', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f202', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g202', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h202', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i202', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j202', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k202', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l202', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m202', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e203', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f203', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g203', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h203', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i203', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j203', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k203', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l203', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m203', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e204', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f204', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g204', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h204', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i204', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j204', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k204', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l204', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m204', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e205', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f205', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g205', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h205', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i205', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j205', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k205', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l205', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m205', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e206', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f206', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g206', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h206', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i206', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j206', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k206', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l206', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m206', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e207', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f207', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g207', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h207', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i207', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j207', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k207', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l207', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m207', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e208', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f208', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g208', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h208', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i208', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j208', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k208', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l208', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m208', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e209', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f209', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g209', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h209', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i209', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j209', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k209', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l209', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m209', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e210', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f210', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g210', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h210', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i210', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j210', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k210', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l210', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m210', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e211', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f211', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g211', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h211', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i211', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j211', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k211', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l211', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m211', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e212', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f212', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g212', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h212', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i212', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j212', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k212', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l212', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m212', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e213', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f213', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g213', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h213', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i213', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j213', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k213', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l213', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m213', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e214', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f214', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g214', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h214', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i214', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j214', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k214', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l214', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m214', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e215', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f215', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g215', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h215', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i215', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j215', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k215', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l215', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m215', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e216', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f216', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g216', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h216', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i216', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j216', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k216', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l216', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m216', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e217', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f217', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g217', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h217', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i217', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j217', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k217', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l217', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m217', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e218', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f218', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g218', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h218', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i218', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j218', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k218', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l218', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m218', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e219', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f219', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g219', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h219', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i219', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j219', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k219', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l219', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m219', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e220', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f220', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g220', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h220', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i220', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j220', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k220', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l220', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m220', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e221', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f221', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g221', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h221', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i221', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j221', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k221', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l221', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m221', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e222', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f222', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g222', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h222', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i222', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j222', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k222', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l222', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m222', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e223', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f223', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g223', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h223', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i223', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j223', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k223', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l223', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m223', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e224', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f224', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g224', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h224', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i224', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j224', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k224', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l224', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m224', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e225', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f225', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g225', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h225', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i225', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j225', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k225', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l225', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m225', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e226', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f226', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g226', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h226', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i226', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j226', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k226', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l226', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m226', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e227', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f227', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g227', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h227', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i227', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j227', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k227', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l227', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m227', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e228', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f228', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g228', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h228', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i228', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j228', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k228', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l228', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m228', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e229', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f229', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g229', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h229', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i229', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j229', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k229', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l229', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m229', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e230', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f230', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g230', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h230', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i230', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j230', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k230', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l230', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m230', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e231', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f231', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g231', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h231', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i231', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j231', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k231', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l231', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m231', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e232', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f232', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g232', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h232', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i232', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j232', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k232', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l232', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m232', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e233', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f233', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g233', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h233', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i233', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j233', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k233', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l233', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m233', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e234', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f234', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g234', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h234', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i234', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j234', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k234', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l234', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m234', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e235', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f235', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g235', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h235', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i235', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j235', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k235', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l235', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m235', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e236', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f236', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g236', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h236', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i236', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j236', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k236', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l236', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m236', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e237', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f237', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g237', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h237', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i237', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j237', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k237', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l237', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m237', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e238', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f238', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g238', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h238', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i238', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j238', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k238', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l238', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m238', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e239', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f239', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g239', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h239', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i239', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j239', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k239', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l239', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m239', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e240', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f240', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g240', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h240', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i240', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j240', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k240', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l240', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m240', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e241', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f241', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g241', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h241', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i241', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j241', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k241', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l241', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m241', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e242', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f242', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g242', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h242', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i242', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j242', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k242', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l242', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m242', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e243', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f243', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g243', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h243', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i243', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j243', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k243', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l243', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m243', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e244', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f244', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g244', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h244', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i244', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j244', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k244', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l244', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m244', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e245', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f245', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g245', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h245', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i245', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j245', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k245', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l245', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m245', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e246', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f246', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g246', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h246', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i246', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j246', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k246', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l246', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m246', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e247', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f247', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g247', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h247', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i247', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j247', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k247', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l247', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m247', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e248', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f248', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g248', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h248', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i248', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j248', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k248', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l248', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m248', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_e249', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_f249', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_g249', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_h249', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_i249', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_j249', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_k249', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_l249', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_m249', [], ExcelValue.by_value
+    attach_function 'costs_per_capita_cd185', [], ExcelValue.by_value
+    # end of Costs per capita
+    # end of AbsoluteCost
+    # end of FuelCosts
+    # end of ElectSupplyCosts
+    # end of HeatCosts
+    # end of TransCosts
+    # end of CostsRef
     # end of I.a
     # end of I.b
     # end of II.a
@@ -7499,6 +8165,8 @@ class Model
     attach_function 'input_types', [], ExcelValue.by_value
     attach_function 'output_areas', [], ExcelValue.by_value
     attach_function 'output_capacity_automaticallybuilt', [], ExcelValue.by_value
+    attach_function 'output_costpercapita_detail', [], ExcelValue.by_value
+    attach_function 'output_costpercapita_npv_point', [], ExcelValue.by_value
     attach_function 'output_diversity', [], ExcelValue.by_value
     attach_function 'output_electricity_capacity', [], ExcelValue.by_value
     attach_function 'output_electricity_demand', [], ExcelValue.by_value
@@ -7525,6 +8193,8 @@ class Model
     attach_function 'input_types', [], ExcelValue.by_value
     attach_function 'output_areas', [], ExcelValue.by_value
     attach_function 'output_capacity_automaticallybuilt', [], ExcelValue.by_value
+    attach_function 'output_costpercapita_detail', [], ExcelValue.by_value
+    attach_function 'output_costpercapita_npv_point', [], ExcelValue.by_value
     attach_function 'output_diversity', [], ExcelValue.by_value
     attach_function 'output_electricity_capacity', [], ExcelValue.by_value
     attach_function 'output_electricity_demand', [], ExcelValue.by_value
