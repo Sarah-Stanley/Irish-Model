@@ -5,7 +5,7 @@ window.twentyfifty.views.costs_sensitivity = function() {
 
     bottom_area_start = 219;
 
-    cost_component_names = ["Conventional thermal plant", "Combustion + CCS", "Nuclear power", "Onshore wind", "Offshore wind", "Hydroelectric", "Wave and Tidal", "Geothermal", "Distributed solar PV", "Distributed solar thermal", "Micro wind", "Biomatter to fuel conversion", "Bioenergy imports", "Agriculture and land use", "Energy from waste", "Waste arising", "Marine algae", "Electricity imports", "Electricity Exports", "Electricity grid distribution", "Storage, demand shifting, backup", "H2 Production", "Domestic heating", "Domestic insulation", "Commercial heating and cooling", "Domestic lighting, appliances, and cooking", "Commercial lighting, appliances, and catering", "Industrial processes", "Conventional cars and buses", "Hybrid cars and buses", "Electric cars and buses", "Fuel cell cars and buses", "Bikes", "Rail", "Domestic aviation", "Domestic freight", "International aviation", "International shipping (maritime bunkers)", "Geosequestration", "Petroleum refineries", "Fossil fuel transfers", "District heating effective demand", "Storage of captured CO2", "Coal", "Oil", "Gas", "Finance cost"];
+    cost_component_names = ["Conventional thermal plant", "Combustion + CCS", "Nuclear power", "Onshore wind", "Offshore wind", "Hydroelectric", "Wave and Tidal", "Distributed solar PV", "Distributed solar thermal", "Micro wind", "Biomatter to fuel conversion", "Bioenergy imports", "Agriculture and land use", "Energy from waste", "Waste arising", "Marine algae", "Electricity imports", "Electricity Exports", "Electricity grid distribution", "Storage, demand shifting, backup", "H2 Production", "Domestic heating", "Domestic insulation", "Commercial heating and cooling", "Domestic lighting, appliances, and cooking", "Commercial lighting, appliances, and catering", "Industrial processes", "Conventional cars and buses", "Hybrid cars and buses", "Electric cars and buses", "Fuel cell cars and buses", "Bikes", "Rail", "Domestic aviation", "Domestic freight", "Geosequestration", "Petroleum refineries", "Fossil fuel transfers", "District heating effective demand", "Storage of captured CO2", "Coal", "Oil", "Gas", "Finance cost"];
 
     cost_wiki_links = {
       "Fuel cell cars and buses": '/pages/63',
@@ -41,7 +41,6 @@ window.twentyfifty.views.costs_sensitivity = function() {
       "Distributed solar thermal": '/pages/31',
       "Domestic freight": '/pages/64',
       "Coal": '/pages/13',
-      "Geothermal": '/pages/39',
       "Micro wind": '/pages/56',
       "District heating effective demand": '/pages/30',
       "Commercial lighting, appliances, and catering": '/pages/23',
@@ -52,8 +51,6 @@ window.twentyfifty.views.costs_sensitivity = function() {
       "Domestic lighting, appliances, and cooking": '/pages/46',
       "Geosequestration": '/pages/29',
       "Petroleum refineries": '/pages/25',
-      "International shipping (maritime bunkers)": '/pages/71',
-      "International aviation": '/pages/70',
       "Bikes": '/pages/63',
       "Electricity imports": '/pages/32'
     };
@@ -80,7 +77,7 @@ window.twentyfifty.views.costs_sensitivity = function() {
         expensive: "10% real"
       }
     };
-    
+
     cost_component_value = function(name) {
       return cost_component_values[name] || {
         cheap: "Cheap",
