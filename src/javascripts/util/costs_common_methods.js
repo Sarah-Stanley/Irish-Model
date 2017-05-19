@@ -2,7 +2,7 @@
   __hasProp = {}.hasOwnProperty;
 
   // FIXME: Move this to index.html
-  window.costEssentialNotesHTML = "<div id='essentialnotes'>\n  Note: The cost of failing to tackle climate change is not included. Some pathways, including the 'All at Level 1' pathway shown here, fail to tackle climate change. The Stern review estimated that failing to tackle climate change could reduce global GDP by up to 20% (equivalent to up to &pound;6500 per person per year on top of the cost of the energy system included in the chart above). Nor are the costs of travelling less, being colder, or consuming less included.\n  <a href=\"#\" onclick=\"$.jStorage.deleteKey('CostCaveatShown');$('#cost_caveats').show(); return false;\">Show the caveats again</a>\n</div>";
+  window.costEssentialNotesHTML = "<div id='essentialnotes'>\n  <br><strong>Note: The cost of failing to tackle climate change is not included.</strong>\n</div>";
 
   // FIXME: Move this to the spreadsheet
   cost_categories = {

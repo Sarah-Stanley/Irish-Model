@@ -60,27 +60,27 @@ window.twentyfifty.views.costs_sensitivity = function() {
 
     cost_component_values = {
       "Oil": {
-        cheap: "$75/bbl",
-        "default": "$130/bbl",
-        expensive: "$170/bbl"
+        cheap: "$55/bbl",
+        "default": "$80/bbl",
+        expensive: "$120/bbl"
       },
       "Coal": {
-        cheap: "$80/tCoal",
-        "default": "$110/tCoal",
-        expensive: "$155/tCoal"
+        cheap: "$56/tCoal",
+        "default": "$80/tCoal",
+        expensive: "$112/tCoal"
       },
       "Gas": {
-        cheap: "45p/therm",
-        "default": "70p/therm",
-        expensive: "100p/therm"
+        cheap: "50p/therm",
+        "default": "60p/therm",
+        expensive: "80p/therm"
       },
       "Finance cost": {
         cheap: "None",
-        "default": "7% real",
+        "default": "5% real",
         expensive: "10% real"
       }
     };
-
+    
     cost_component_value = function(name) {
       return cost_component_values[name] || {
         cheap: "Cheap",
@@ -191,7 +191,7 @@ window.twentyfifty.views.costs_sensitivity = function() {
         });
         this.increment_arrows.single_value.attr({
           x: this.x(max) + 3,
-          text: "£" + (Math.round(Math.abs(i1))) + "/person/year " + (direction(i1))
+          text: "€" + (Math.round(Math.abs(i1))) + "/person/year " + (direction(i1))
         });
         optional_arrow(this.increment_arrows.single, i1);
         this.increment_arrows.single.show();

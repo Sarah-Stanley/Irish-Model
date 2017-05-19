@@ -2,7 +2,7 @@ window.twentyfifty.views.costs_in_context = function() {
 
     __hasProp = {}.hasOwnProperty;
 
-    costsInContextHTML = "<div class='costsincontext'>\n  <div id='cost_override_warning'>NB Some costs not on default values</div>\n  <h1>\n    The cost to society of your pathway. This is not your energy bill.<br>\n    For comparison, UK average GDP 2010-2050 is forecast to be roughly &pound;35000 per person.\n  </h1>\n  <div id='costsincontext'></div>\n  " + window.costEssentialNotesHTML + "\n</div>";
+    costsInContextHTML = "<div class='costsincontext'>\n  <div id='cost_override_warning'>NB Some costs not on default values</div>\n  <h1>\n    The cost to society of your pathway. This is not your energy bill.<br>\n    For comparison, Irish average GDP 2013-2050 is forecast to be roughly &euro;45,000 per person.\n  </h1>\n  <div id='costsincontext'></div>\n  " + window.costEssentialNotesHTML + "\n</div>";
 
     this.pathways = {};
 
@@ -119,8 +119,8 @@ window.twentyfifty.views.costs_in_context = function() {
         overlays.insertAfter(this.incremental_overlay);
 
         // This is where the green bars are being drawn 
-        
-        this.r.text(this.x(0), this.h - 5, "The absolute cost to society of the whole energy system (mean undiscounted real pounds per person per year 2010-2050)").attr({
+
+        this.r.text(this.x(0), this.h - 5, "The absolute cost to society of the whole energy system (mean undiscounted real euro per person per year 2013-2050").attr({
             'text-anchor': 'start',
             'font-weight': 'bold',
             'fill': '#008000'
@@ -162,7 +162,7 @@ window.twentyfifty.views.costs_in_context = function() {
             stroke: '#000',
             'stroke-dasharray': '.'
         });
-        return this.r.text(x, this.h - 20, '3,700').attr({
+        return this.r.text(x, this.h - 20, '4,500').attr({
             'text-anchor': 'end',
             fill: '#aaa'
         });
