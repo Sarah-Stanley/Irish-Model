@@ -53,7 +53,7 @@ window.twentyfifty.views.costs_compared_overview = function() {
     this.h = e.height();
     this.w = e.width();
     this.r = new Raphael('costscomparedoverview', this.w, this.h);
-    this.x = d3.scale.linear().domain([0, 7000]).range([250, this.w - 30]).nice();
+    this.x = d3.scale.linear().domain([0, 10000]).range([250, this.w - 30]).nice();
     this.y = d3.scale.ordinal().domain(all_pathways).rangeRoundBands([25, this.h - 20], 0.25);
     this.r.text(250, 30, "Move your mouse over a coloured bar to see what it refers to. Click on a bar to see more detail").attr({
       'text-anchor': 'start'
@@ -61,12 +61,12 @@ window.twentyfifty.views.costs_compared_overview = function() {
     _ref = twentyfifty.comparator_pathways;
     for (_i = 0, _len = _ref.length; _i < _len; _i++) {
       code = _ref[_i];
-      this.r.rect(this.x(0), this.y(code), this.x(7000) - this.x(0), this.y.rangeBand()).attr({
+      this.r.rect(this.x(0), this.y(code), this.x(10000) - this.x(0), this.y.rangeBand()).attr({
         'fill': '#ddd',
         'stroke': 'none'
       });
     }
-    this.r.rect(25, this.y("chosen"), this.x(7000) - 25, this.y.rangeBand()).attr({
+    this.r.rect(25, this.y("chosen"), this.x(10000) - 25, this.y.rangeBand()).attr({
       'fill': '#FCFF9B',
       'stroke': 'none'
     });
