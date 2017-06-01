@@ -65,13 +65,11 @@ window.twentyfifty.views.costs_in_context = function() {
             // console.log(comparator_pathways[_j]);
             this.r.text(30, this.y(code) + 9, twentyfifty.pathwayName(code, code)).attr({
                 'text-anchor': 'start',
-                'font-weight': 'bold',
-                href: twentyfifty.pathwayWikiPages(code)
+                'font-weight': 'bold'
             });
 
             this.r.text(30, this.y(code) + 27, twentyfifty.pathwayDescriptions(code, "")).attr({
-                'text-anchor': 'start',
-                href: twentyfifty.pathwayWikiPages(code)
+                'text-anchor': 'start'
             });
         }
 
