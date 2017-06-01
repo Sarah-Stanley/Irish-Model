@@ -6,8 +6,24 @@ window.twentyfifty.views.costs_in_context = function() {
 
     this.pathways = {};
 
+    // Specific to the Irish model
+    this.IrishEmissionIncreases = {
+        '1011111111111110111111001111100111101101101110110111': '22% emissions increase',
+        '2022222222222220222222002222200222202202202220220222': '35% emissions increase',
+        '3033333333333330333333003333300333303303303330330333': '80% emissions increase',
+        '4044444444444440444444004444400444404404404440440444': '92% emissions increase',
+        '1011111111111110111111004424400444404204304440420111': '31% emissions increase',
+        '4044444444444440443424001121100111101102101110110111': '46% emissions increase',
+        '3031222222222220324313004414400334303102303320310231': '80% emissions increase',
+        '1022212333222320433313003213300332303103303230310231': '80% emissions increase',
+        '1041332232322230212224003313400444404102304330410441': '80% emissions increase'
+    };
+
+    this.testMap = {
+        123: 'a test'
+    };
+
     this.setup = function() {
-        console.log("testing");
         if ($.jStorage.get('CostCaveatShown') !== true) { $('#cost_caveats').show(); }
         var all_pathways, code, comparator_pathways, e, format, h, labels_hide, labels_show, low, low_label, message, overlay, overlays, range, range_label, tick, x, y, _i, _j, _k, _l, _len, _len1, _len2, _len3, _len4, _m, _ref, _results;
         $("#results").append(costsInContextHTML);
@@ -46,7 +62,7 @@ window.twentyfifty.views.costs_in_context = function() {
 
         for (_j = 0, _len1 = comparator_pathways.length; _j < _len1; _j++) {
             code = comparator_pathways[_j];
-            console.log(comparator_pathways[_j]);
+            // console.log(comparator_pathways[_j]);
             this.r.text(30, this.y(code) + 9, twentyfifty.pathwayName(code, code)).attr({
                 'text-anchor': 'start',
                 'font-weight': 'bold',
@@ -258,74 +274,77 @@ window.twentyfifty.views.costs_in_context = function() {
         bar.overlay.attr({
             width: this.x(total_cost + total_range) - this.x(0)
         });
-        if (pathway.ghg_reduction_from_1990 < 0.8) {
+        if(this.IrishEmissionIncreases[_id] === undefined){
             bar.message.attr({
                 x: this.x(total_cost + total_range) + 100,
-                text: "This pathway does not reduce emissions by at least 80% on 1990 levels"
-            });
-            return bar.message.toFront();
-        } else {
-            bar.message.attr({
-                x: this.x(total_cost + total_range) + 100,
-                text: ""
-            });
-            return bar.message.toFront();
-        }
-    };
-
-    this.setIncrementalCostLabel = function(code, pathway) {
-        var a, delta, i, i1, i2, message;
-        if (this.comparator == null) {
-            return false;
-        }
-        if (code === this.comparator._id) {
-            return false;
-        }
-        if (pathway.total_cost_range_adjusted === 0 && this.comparator.total_cost_range_adjusted === 0) {
-            delta = Math.round(pathway.total_cost_low_adjusted - this.comparator.total_cost_low_adjusted);
-            if (delta < 0) {
-                message = "" + (-delta) + " less";
-            } else if (delta === 0) {
-                message = "the same";
-            } else {
-                message = "" + delta + " more";
-            }
-        } else {
-            i = twentyfifty.calculateIncrementalCost(pathway, this.comparator);
-            i1 = Math.round(i.tc - i.cc);
-            i2 = Math.round(i.tt - i.ct);
-            if (i1 > i2) {
-                a = i2;
-                i2 = i1;
-                i1 = a;
-            }
-            if (i1 < 0 && i2 < 0) {
-                message = "" + (-i1) + " to " + (-i2) + " less";
-            } else if (i1 < 0 && i2 > 0) {
-                message = "" + (-i1) + " less to " + i2 + " more";
-            } else {
-                message = "" + i1 + " to " + i2 + " more";
-            }
-        }
-        return this.bars[code].range_label.attr({
-            text: message
+                text: ''
         });
-    };
-
-    this.total_cost_low_adjusted = function(pathway) {
-        if (pathway.total_cost_low_adjusted == null) {
-            twentyfifty.adjust_costs_of_pathway(pathway);
         }
-        return pathway.total_cost_low_adjusted;
-    };
-
-    this.total_cost_range_adjusted = function(pathway) {
-        if (pathway.total_cost_range_adjusted == null) {
-            twentyfifty.adjust_costs_of_pathway(pathway);
+        else {
+            bar.message.attr({
+                x: this.x(total_cost + total_range) + 100,
+                text: this.IrishEmissionIncreases[_id]
+        });
         }
-        return pathway.total_cost_range_adjusted;
-    };
+    // console.log('map' + this.IrishMappings);
+    // console.log(typeof(_id));
+    // console.log(this.IrishEmissionIncreases[_id]);
+    return bar.message.toFront();
+};
 
-    return this;
+this.setIncrementalCostLabel = function(code, pathway) {
+    var a, delta, i, i1, i2, message;
+    if (this.comparator == null) {
+        return false;
+    }
+    if (code === this.comparator._id) {
+        return false;
+    }
+    if (pathway.total_cost_range_adjusted === 0 && this.comparator.total_cost_range_adjusted === 0) {
+        delta = Math.round(pathway.total_cost_low_adjusted - this.comparator.total_cost_low_adjusted);
+        if (delta < 0) {
+            message = "" + (-delta) + " less";
+        } else if (delta === 0) {
+            message = "the same";
+        } else {
+            message = "" + delta + " more";
+        }
+    } else {
+        i = twentyfifty.calculateIncrementalCost(pathway, this.comparator);
+        i1 = Math.round(i.tc - i.cc);
+        i2 = Math.round(i.tt - i.ct);
+        if (i1 > i2) {
+            a = i2;
+            i2 = i1;
+            i1 = a;
+        }
+        if (i1 < 0 && i2 < 0) {
+            message = "" + (-i1) + " to " + (-i2) + " less";
+        } else if (i1 < 0 && i2 > 0) {
+            message = "" + (-i1) + " less to " + i2 + " more";
+        } else {
+            message = "" + i1 + " to " + i2 + " more";
+        }
+    }
+    return this.bars[code].range_label.attr({
+        text: message
+    });
+};
+
+this.total_cost_low_adjusted = function(pathway) {
+    if (pathway.total_cost_low_adjusted == null) {
+        twentyfifty.adjust_costs_of_pathway(pathway);
+    }
+    return pathway.total_cost_low_adjusted;
+};
+
+this.total_cost_range_adjusted = function(pathway) {
+    if (pathway.total_cost_range_adjusted == null) {
+        twentyfifty.adjust_costs_of_pathway(pathway);
+    }
+    return pathway.total_cost_range_adjusted;
+};
+
+return this;
 
 }.call({});

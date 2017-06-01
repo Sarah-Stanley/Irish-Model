@@ -8104,10 +8104,10 @@ class Model
     attach_function 'costs_per_capita_cd185', [], ExcelValue.by_value
     # end of Costs per capita
     # end of AbsoluteCost
-    # end of FuelCosts
-    # end of ElectSupplyCosts
-    # end of HeatCosts
-    # end of TransCosts
+    # end of FuelCost - Inputs
+    # end of ElectSupplyCost - Inputs
+    # end of HeatCosts - Inputs
+    # end of TransCosts - Inputs
     # end of CostsRef
     # end of I.a
     # end of I.b
@@ -8116,6 +8116,7 @@ class Model
     # end of III.a.2
     # end of III.b
     # end of III.c
+    # end of III.d
     # end of IV.a
     # end of IV.b
     # end of IV.c
