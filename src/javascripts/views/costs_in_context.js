@@ -208,7 +208,7 @@ window.twentyfifty.views.costs_in_context = function() {
             });
         } else if (_id === (twentyfifty.getComparator() || twentyfifty.default_comparator_code)) {
             this.comparator = pathway;
-            this.r.text(this.x(total_cost), 10, "The extra cost to society above that of the '" + (twentyfifty.pathwayName(_id, "comparison")) + "' pathway (mean euro-per-person-per-year 2010-2050)").attr({
+            this.r.text(this.x(total_cost), 10, "The extra cost to society above that of the '" + (twentyfifty.pathwayName(_id, "comparison")) + "' pathway (mean euro per person per year 2013-2050)").attr({
                 'text-anchor': 'start',
                 'font-weight': 'bold',
                 'fill': '#f00'
