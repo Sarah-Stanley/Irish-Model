@@ -211,11 +211,11 @@ window.twentyfifty.views.costs_sensitivity = function() {
         });
         this.increment_arrows.low_value.attr({
           x: this.x(max) + 3,
-          text: "£" + (Math.round(Math.abs(i2))) + "/person/year " + (direction(i2)) + " and"
+          text: "€" + (Math.round(Math.abs(i2))) + "/person/year " + (direction(i2)) + " and"
         });
         this.increment_arrows.high_value.attr({
           x: this.x(max) + 3,
-          text: "£" + (Math.round(Math.abs(i1))) + "/person/year " + (direction(i1))
+          text: "€" + (Math.round(Math.abs(i1))) + "/person/year " + (direction(i1))
         });
         optional_arrow(this.increment_arrows.low, i2);
         optional_arrow(this.increment_arrows.high, i1);
