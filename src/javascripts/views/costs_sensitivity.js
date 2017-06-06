@@ -97,14 +97,14 @@ window.twentyfifty.views.costs_sensitivity = function() {
       if (value > 0) {
         return "#f00";
       }
-      return "#0f0";
+      return "#DF5A49";
     };
 
-    p_low_fill_color = '#1f77b4';
+    p_low_fill_color = '#334D5C';
 
     p_range_fill_color = 'url(/assets/images/hatches/hatch-1f77b4.png)';
 
-    c_low_fill_color = '#f00';
+    c_low_fill_color = '#E27A3F';
 
     c_range_fill_color = 'url(/assets/images/hatches/hatch-f00.png)';
 
@@ -390,13 +390,13 @@ window.twentyfifty.views.costs_sensitivity = function() {
       r = new Raphael('costssensitivity', w, h);
       this.x = x = d3.scale.linear().domain([0, 10000]).range([250, w - 30]).nice();
       this.top_y = y = d3.scale.ordinal().domain(['p', 'i', 'c']).rangeRoundBands([30, 180], 0.15);
-      r.text(x(5000), 17, "The mean cost to society of the whole energy system in undiscounted real euros per person 2010-2050").attr({
+      r.text(x(5000), 17, "The mean cost to society of the whole energy system in undiscounted real euros per person 2013-2050").attr({
         'text-anchor': 'center',
         'font-weight': 'bold'
       });
       this.top_bar_height = bar_height = y.rangeBand();
       r.rect(25, y('p'), x(10000) - 25, bar_height).attr({
-        'fill': '#FCFF9B',
+        'fill': '#EFC94C',
         'stroke': 'none'
       });
       r.text(30, y("p") + 9, "Your pathway").attr({
@@ -417,7 +417,7 @@ window.twentyfifty.views.costs_sensitivity = function() {
         })
       };
       r.rect(x(0), y('c'), x(10000) - x(0), bar_height).attr({
-        'fill': '#ddd',
+        'fill': '#b7b0ac',
         'stroke': 'none'
       });
       this.top_comparator_chart = {
@@ -471,7 +471,7 @@ window.twentyfifty.views.costs_sensitivity = function() {
         name = cost_component_names[_i];
         py = y(name);
         r.rect(x(0), py, x(10000) - x(0), y.rangeBand()).attr({
-          'fill': '#ddd',
+          'fill': '#f6f9fc',
           'stroke': 'none'
         });
       }
@@ -490,7 +490,7 @@ window.twentyfifty.views.costs_sensitivity = function() {
         ly = py + (y.rangeBand() / 2);
         boxy = py;
         component = {};
-        url = '#';
+        url = "http://2050-calculator-tool-wiki.decc.gov.uk" + (cost_wiki_links[name] || "/");
         component.name = r.text(245, ly, name).attr({
           'text-anchor': 'end',
           href: url
