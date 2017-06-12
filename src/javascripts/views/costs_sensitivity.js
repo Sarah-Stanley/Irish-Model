@@ -524,7 +524,7 @@ window.twentyfifty.views.costs_sensitivity = function() {
           'arrow-start': "classic-narrow-long"
         });
         labels = cost_component_value(name);
-        component.details = r.text(x(5500), ly, "See assumptions").attr({
+        component.details = r.text(x(5500), ly, "").attr({
           'text-anchor': 'middle',
           href: url
         });
