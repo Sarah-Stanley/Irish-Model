@@ -1,0 +1,1 @@
+rsync -arvP --exclude-from='rsync_exclude.text' /Users/brian/Sites/inishtech/ root@188.166.84.127:/var/www/html/staging

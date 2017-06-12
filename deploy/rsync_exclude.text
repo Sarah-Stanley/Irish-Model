@@ -1,0 +1,9 @@
+deploy/
+docs/
+*.git
+web/app/themes/inishtech/node_modules/
+web/app/themes/inishtech/assets/
+web/app/themes/inishtech/gulp/
+*.env
+web/.htaccess
+web/robots.txt

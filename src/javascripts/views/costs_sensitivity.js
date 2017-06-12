@@ -141,11 +141,11 @@ window.twentyfifty.views.costs_sensitivity = function() {
       this.updateBar(this.top_comparator_chart, this.comparator.total_cost_low_adjusted, this.comparator.total_cost_range_adjusted);
       this.top_comparator_chart.name.attr({
         text: twentyfifty.pathwayName(this.comparator._id, this.comparator._id),
-        href: twentyfifty.pathwayWikiPages(this.comparator._id)
+        href: ''
       });
       this.top_comparator_chart.description.attr({
         text: twentyfifty.pathwayDescriptions(this.comparator._id, ""),
-        href: twentyfifty.pathwayWikiPages(this.comparator._id)
+        href: ''
       });
       this.key_label.attr({
         text: "The cost in '" + (twentyfifty.pathwayName(this.comparator._id, this.comparator._id)) + "'"
@@ -493,7 +493,7 @@ window.twentyfifty.views.costs_sensitivity = function() {
         url = "http://2050-calculator-tool-wiki.decc.gov.uk" + (cost_wiki_links[name] || "/");
         component.name = r.text(245, ly, name).attr({
           'text-anchor': 'end',
-          href: url
+          href: '#'
         });
         component.pathway = {};
         component.pathway.low = r.rect(x(0), py, 0, bar_height).attr({
