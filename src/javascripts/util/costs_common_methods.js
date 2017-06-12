@@ -2,7 +2,7 @@
   __hasProp = {}.hasOwnProperty;
 
   // FIXME: Move this to index.html
-  window.costEssentialNotesHTML = "<div id='essentialnotes'>\n  <br><strong>Note: The cost of failing to tackle climate change is not included.</strong>\n</div>";
+  window.costEssentialNotesHTML = "<div id='essentialnotes'>\n  <br><strong>Note: The cost of failing to tackle climate change is not included.For individual cost assumptions, download the <a href=\"/assets/excel/model.xlsx\">Excel model</a>.</strong>\n</div>";
 
   // FIXME: Move this to the spreadsheet
   cost_categories = {
